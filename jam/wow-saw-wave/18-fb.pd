@@ -3,7 +3,7 @@
 #X text 0 0 plugdatainfo <?xml version="1.0" encoding="UTF-8"?> <plugdatainfo><InfoObj ID="16.C.........v.....B....." Updated="0" Segmented="1" Path="32.D....P.....A....JA....G...fR....vA...XM...."/><InfoObj ID="16.B.........v.....A....." Updated="0" Segmented="1" Path="32.................qA........vZ.........XM...."/><InfoObj ID="16.E....X..........A....." Updated="0" Segmented="1" Path="32.E.........PA....F....LH...fA....CB...3....."/><InfoObj ID="16.D....b..........A....." Updated="0" Segmented="1" Path="32.................I....LH...PB....CB...DA...."/><InfoObj ID="16.A....L....P.....D....." Updated="0" Segmented="1" Path="32.................Q....n8+++eD....Z++++GB...."/><InfoObj ID="16.A....H..........D....." Updated="0" Segmented="1" Path="32.................Q....nD...PD....JA...DB...."/><InfoObj ID="16.C....P..........A....." Updated="0" Segmented="0" Path="32.................V.........fE.........vB...."/><InfoObj ID="16.C....T....P.....A....." Updated="0" Segmented="0" Path="32.................F.........fA.........v....."/><InfoObj ID="16.B....X....P.....A....." Updated="0" Segmented="0" Path="32.................V.........fE.........vB...."/><InfoObj ID="16.B....b..........A....." Updated="0" Segmented="0" Path="32.................n..........J.........7D...."/></plugdatainfo>;
 #X coords 0 1 100 -1 1 1 1;
 #X restore 0 0 graph;
-#X obj 551 123 adc~;
+#X obj 551 34 adc~;
 #X obj 578 410 dac~;
 #X obj 504 357 fbsine~;
 #X obj 635 357 fbsine~;
@@ -11,12 +11,12 @@
 #X obj 650 327 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #e4e4e4 #5a5a5a #5a5a5a 0 256;
 #X obj 519 295 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #e4e4e4 #5a5a5a #5a5a5a 0 256;
 #X obj 504 260 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #e4e4e4 #5a5a5a #5a5a5a 0 256;
-#X obj 504 227 r frq;
-#X obj 519 191 r fb;
+#X obj 504 191 r frq;
+#X obj 519 152 r fb;
 #X obj 115 284 s frq;
 #X obj 203 284 s fb;
-#X obj 115 236 * 1000;
-#X obj 115 68 vsl 44 142 0 1 0 1 empty empty empty 0 -9 0 10 #e4e4e4 #f7a8b8 #5a5a5a 54 1;
+#X obj 504 225 * 1000;
+#X obj 115 68 vsl 44 142 0 1 0 1 empty empty empty 0 -9 0 10 #e4e4e4 #f7a8b8 #5a5a5a 65 1;
 #X obj 203 70 vsl 44 142 0 1 0 1 empty empty empty 0 -9 0 10 #e4e4e4 #55cdfc #5a5a5a 18 1;
 #X connect 1 0 3 3;
 #X connect 1 1 4 3;
@@ -28,8 +28,8 @@
 #X connect 7 0 3 1;
 #X connect 8 0 3 0;
 #X connect 8 0 5 0;
-#X connect 9 0 8 0;
+#X connect 9 0 13 0;
 #X connect 10 0 7 0;
-#X connect 13 0 11 0;
-#X connect 14 0 13 0;
+#X connect 13 0 8 0;
+#X connect 14 0 11 0;
 #X connect 15 0 12 0;
