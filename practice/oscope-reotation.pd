@@ -1,0 +1,13 @@
+#N canvas 827 239 527 327 12;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X text 0 0 plugdatainfo <?xml version="1.0" encoding="UTF-8"?> <plugdatainfo/>;
+#X coords 0 1 100 -1 1 1 1;
+#X restore 0 0 graph;
+#X obj 69 178 oscope~ 296 297 4 3 256 -2 2 0 0 0 0 255 255 255 29 29 29 31 31 31 0 empty;
+#X obj 69 142 sine~;
+#X obj 340 142 cosine~;
+#X obj 69 77 nbx 9 41 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.7 256;
+#X connect 2 0 1 0;
+#X connect 3 0 1 1;
+#X connect 4 0 2 0;
+#X connect 4 0 3 0;
