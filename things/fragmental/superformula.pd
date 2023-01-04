@@ -1,6 +1,6 @@
 #N canvas 827 239 527 327 12;
 #N canvas 0 50 450 250 (subpatch) 0;
-#X text 0 0 plugdatainfo <?xml version="1.0" encoding="UTF-8"?> <plugdatainfo/>;
+#X text 0 0 plugdatainfo <?xml version="1.0" encoding="UTF-8"?> <plugdatainfo><InfoObj ID="16.W....................." Updated="0" Segmented="1" Path="32.................N.........fC.........vA...."/><InfoObj ID="16.W....D....P..........." Updated="0" Segmented="1" Path="32.................N....LA...fC....S....vA...."/><InfoObj ID="16.W....H....f..........." Updated="0" Segmented="1" Path="32.................N....X++++uC....1++++yA...."/><InfoObj ID="16.W....L....v..........." Updated="0" Segmented="1" Path="32.................N....j....fC....I....vA...."/><InfoObj ID="16.W....P.....A.........." Updated="0" Segmented="1" Path="32.................N....vA...fC....b....vA...."/><InfoObj ID="16.W....T....PA.........." Updated="0" Segmented="1" Path="32.................N....79+++uC....u++++yA...."/><InfoObj ID="16.W....X....fA.........." Updated="0" Segmented="1" Path="32.................N....P....fC....D....vA...."/><InfoObj ID="16.L....b................" Updated="0" Segmented="1" Path="32.................7....zG....O....8A...HE...."/><InfoObj ID="16.K....b................" Updated="0" Segmented="1" Path="32.................DA...zD....Q....MA...HE...."/><InfoObj ID="16.J....f..........B....." Updated="0" Segmented="1" Path="32.................L..........C.........fA...."/><InfoObj ID="16.O....j..........A....." Updated="0" Segmented="1" Path="32.................H..........B..........A...."/><InfoObj ID="16.N....n..........A....." Updated="0" Segmented="1" Path="32.................H..........B..........A...."/><InfoObj ID="16.H....r..........B....." Updated="0" Segmented="1" Path="32.................J.........fB.........PA...."/><InfoObj ID="16.M....v..........B....." Updated="0" Segmented="1" Path="32.................J.........fB.........PA...."/><InfoObj ID="16.I....z..........B....." Updated="0" Segmented="1" Path="32.................L..........C.........fA...."/><InfoObj ID="16.P....3..........B....." Updated="0" Segmented="1" Path="32.................N.........fC.........rA...."/><InfoObj ID="16.Q....7..........B....." Updated="0" Segmented="1" Path="32.................N.........fC.........rA...."/><InfoObj ID="16.R.....A.........A....." Updated="0" Segmented="1" Path="32.................O.........vC.........3A...."/><InfoObj ID="16.S....DA.........A....." Updated="0" Segmented="1" Path="32.................O.........vC.........3A...."/><InfoObj ID="16.T....HA.........B....." Updated="0" Segmented="1" Path="32.................L..........C.........fA...."/><InfoObj ID="16.T....LA...P.....B....." Updated="0" Segmented="1" Path="32.................L....r8+++OC....a++++iA...."/><InfoObj ID="16.U....PA.........B....." Updated="0" Segmented="1" Path="32.................L..........C.........fA...."/><InfoObj ID="16.V....TA.........B....." Updated="0" Segmented="1" Path="32.................N.........fC.........rA...."/><InfoObj ID="16.K....bA...P.....G....." Updated="0" Segmented="1" Path="32.................Q.........PD.........HB...."/><InfoObj ID="16.L....bA...P.....H....." Updated="0" Segmented="1" Path="32.................Q....z9+++eD....s++++KB...."/><InfoObj ID="16.f....bA.........I....." Updated="0" Segmented="1" Path="32.................TB.........k.........bR...."/><InfoObj ID="16.R....bA...P.....J....." Updated="0" Segmented="1" Path="32.................mC...jy++++4....47+++uO...."/><InfoObj ID="16.S....bA...P.....K....." Updated="0" Segmented="1" Path="32.................xC...Xx+++u7....l7+++uO...."/><InfoObj ID="16.N....bA...P.....L....." Updated="0" Segmented="1" Path="32.................WB....q++++k....v5+++qJ...."/><InfoObj ID="16.O....bA...P.....M....." Updated="0" Segmented="1" Path="32.................fB...vo+++On....b5+++qJ...."/><InfoObj ID="16.U.....B...P.....B....." Updated="0" Segmented="1" Path="32.6++++C....v9++++H....z2+++OB....88+++iA...."/></plugdatainfo>;
 #X coords 0 1 100 -1 1 1 1;
 #X restore 0 0 graph;
 #X obj 145 42 inlet;
@@ -17,8 +17,8 @@
 #X obj 134 144 *;
 #X obj 182 144 *;
 #X obj 182 184 / 4;
-#X obj 134 264 /;
-#X obj 182 264 /;
+#X obj 134 280 /;
+#X obj 182 280 /;
 #X obj 134 311 abs;
 #X obj 182 311 abs;
 #X obj 134 361 pow;
@@ -36,7 +36,7 @@
 #X text 203 20 m2, f 5;
 #X text 155 21 m1, f 4;
 #X obj 279 405 !/ -1;
-#X text 324 404 -1/input, f 8;
+#X text 324 404 -1/input;
 #X connect 1 0 24 0;
 #X connect 2 0 24 1;
 #X connect 3 0 24 2;
