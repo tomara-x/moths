@@ -16,6 +16,7 @@
 #X obj 522 205 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 744 256;
 #X obj 488 179 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 1747 256;
 #X text 617 361 optimize and add the window spacing (and maybe instance num mult inlet), f 35;
+#X text 610 443 redo this using the else freq/pitch transpose, f 36;
 #X connect 1 0 7 0;
 #X connect 1 1 6 0;
 #X connect 3 0 7 3;
