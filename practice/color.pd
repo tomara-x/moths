@@ -1,0 +1,11 @@
+#N canvas 827 239 527 327 12;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X text 0 0 plugdatainfo <?xml version="1.0" encoding="UTF-8"?> <plugdatainfo/>;
+#X coords 0 1 100 -1 1 1 1;
+#X restore 0 0 graph;
+#X obj 79 98 bng 70 250 50 0 empty empty empty 17 7 0 10 #191919 #ed3b4b #ffffff;
+#X obj 168 98 bng 70 250 50 0 empty empty empty 17 7 0 10 #191919 #ff6e1d #ffffff;
+#X obj 257 98 bng 70 250 50 0 empty empty empty 17 7 0 10 #191919 #fbcd26 #ffffff;
+#X obj 347 98 bng 70 250 50 0 empty empty empty 17 7 0 10 #191919 #53af65 #ffffff;
+#X obj 437 98 bng 70 250 50 0 empty empty empty 17 7 0 10 #191919 #2d8ce3 #ffffff;
+#X obj 527 98 bng 70 250 50 0 empty empty empty 17 7 0 10 #191919 #6a47b9 #ffffff;
