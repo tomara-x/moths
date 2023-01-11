@@ -171,6 +171,7 @@
 #X connect 9 0 8 0;
 #X connect 12 0 4 0;
 #X restore 97 660 pd voice;
+#X text 362 440 i want a separate metro to trigger the sequenc from the one triggering the envelope, f 65;
 #X connect 34 0 54 1;
 #X connect 51 0 53 0;
 #X connect 52 0 57 0;

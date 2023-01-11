@@ -1,0 +1,12 @@
+#N canvas 0 50 450 300 sym-mul 1;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X text 0 0 plugdatainfo <?xml version="1.0" encoding="UTF-8"?> <plugdatainfo/>;
+#X coords 0 1 100 -1 1 1 1;
+#X restore 0 0 graph;
+#X obj 346 318 *;
+#X obj 346 388 outlet;
+#X obj 284 243 r \$1;
+#X obj 412 243 r \$2;
+#X connect 1 0 2 0;
+#X connect 3 0 1 0;
+#X connect 4 0 1 1;
