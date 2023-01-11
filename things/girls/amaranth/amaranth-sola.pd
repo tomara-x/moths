@@ -137,7 +137,7 @@
 #X msg 283 127 0 \$1, f 6;
 #X msg 140 102 tempo \$1 permin, f 17;
 #X obj 168 41 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X text 175 21 can i receive a sync/reset trigger for each voice?, f 39;
+#X text 476 402 can i receive a sync/reset trigger for each voice?, f 39;
 #N canvas 0 50 450 300 voice 1;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X text 0 0 plugdatainfo <?xml version="1.0" encoding="UTF-8"?> <plugdatainfo><InfoObj ID="16.C....H..........D....." Updated="0" Segmented="1" Path="32......D..........V....70+++uE....e8+++WE...."/><InfoObj ID="16.C....D..........D....." Updated="0" Segmented="1" Path="32......D..........q.........vJ.........TE...."/><InfoObj ID="16.C...............D....." Updated="0" Segmented="1" Path="32......D..........W....fJ...vE....nB...TE...."/></plugdatainfo>;
@@ -163,8 +163,8 @@
 #X connect 9 0 8 0;
 #X connect 12 0 4 0;
 #X restore 94 663 pd voice;
-#X text 362 440 i want a separate metro to trigger the sequenc from the one triggering the envelope, f 65;
-#X text 526 496 these could be abstractions?, f 24;
+#X text 478 439 i want a separate metro to trigger the sequenc from the one triggering the envelope, f 65;
+#X text 476 512 these could be abstractions?, f 24;
 #X obj 93 608 nbx 6 30 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 164 608 nbx 6 30 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 235 608 nbx 6 30 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
@@ -181,6 +181,9 @@
 #X obj 1016 608 nbx 6 30 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 1087 608 nbx 6 30 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 1159 608 nbx 6 30 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X text 330 96 number of active steps (sequence length), f 34;
+#X text 218 40 bpm (gets multiplied by 4), f 23;
+#X text 477 473 want envelope with function, f 23;
 #X connect 34 0 54 1;
 #X connect 51 0 53 0;
 #X connect 52 0 57 0;
