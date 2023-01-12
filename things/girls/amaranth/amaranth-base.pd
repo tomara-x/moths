@@ -104,7 +104,6 @@
 #X msg 1185 295 symbol x, f 10;
 #X msg 1185 326 symbol y, f 10;
 #X msg 1185 359 symbol z, f 10;
-#X obj 49 364 amaranth-voice;
 #X obj 49 573 catch~ amaranth-out;
 #X obj 49 627 dac~;
 #X connect 74 0 76 0;
@@ -113,5 +112,5 @@
 #X connect 78 0 76 1;
 #X connect 79 0 76 1;
 #X connect 80 0 76 1;
-#X connect 82 0 83 0;
-#X connect 82 0 83 1;
+#X connect 81 0 82 0;
+#X connect 81 0 82 1;
