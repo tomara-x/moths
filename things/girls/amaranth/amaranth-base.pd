@@ -106,6 +106,7 @@
 #X msg 1185 359 symbol z, f 10;
 #X obj 49 573 catch~ amaranth-out;
 #X obj 49 627 dac~;
+#X obj 49 720 thanks;
 #X connect 74 0 76 0;
 #X connect 75 0 76 0;
 #X connect 77 0 76 1;
