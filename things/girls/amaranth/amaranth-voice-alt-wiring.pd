@@ -146,11 +146,12 @@
 #X obj 1017 651 +;
 #X obj 1088 651 +;
 #X obj 1160 651 +;
-#X obj 449 97 function 200 100 empty empty 0 1 25 25 25 255 255 255 0 0 0 0 1 72.1649 0 365.979 0.893617 283.505 0.87234 278.351 0;
+#X obj 449 74 function 200 100 empty empty 0 1 25 25 25 255 255 255 0 0 0 0 0 97.9381 0.93617 82.4742 0.574468 92.7835 0.648936 726.804 0;
 #X text 330 97 sequence length;
 #X text 218 41 bpm, f 6;
-#X msg 449 67 1 1000 0, f 10;
+#X msg 449 44 1 1000 0, f 10;
 #X obj 20 423 s \$0-env-trig;
+#X obj 449 182 s \$0-env-func;
 #X connect 1 0 92 1;
 #X connect 2 0 93 1;
 #X connect 3 0 94 1;
@@ -191,6 +192,7 @@
 #X connect 23 0 83 0;
 #X connect 24 0 77 0;
 #X connect 25 0 76 0;
+#X connect 25 0 112 0;
 #X connect 26 0 86 0;
 #X connect 27 0 87 0;
 #X connect 28 0 88 0;
@@ -272,4 +274,5 @@
 #X connect 105 0 59 0;
 #X connect 106 0 59 0;
 #X connect 107 0 59 0;
+#X connect 108 0 113 0;
 #X connect 111 0 108 0;
