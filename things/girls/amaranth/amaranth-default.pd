@@ -107,9 +107,6 @@
 #X obj 49 577 catch~ amaranth-out;
 #X obj 49 631 dac~;
 #X obj 49 712 thanks;
-#X obj 49 331 amaranth-voice-trigs 1;
-#X obj 49 366 amaranth-voice-trigs 2;
-#X obj 49 399 amaranth-voice-trigs 3;
 #X connect 74 0 76 0;
 #X connect 75 0 76 0;
 #X connect 77 0 76 1;
