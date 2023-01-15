@@ -104,7 +104,7 @@
 #X connect 17 0 13 0;
 #X connect 18 0 19 0;
 #X connect 19 0 13 1;
-#X restore 1184 713 pd voice;
+#X restore 1144 693 pd voice;
 #X obj 35 528 nbx 6 30 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 106 528 nbx 6 30 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 177 528 nbx 6 30 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
@@ -182,10 +182,10 @@
 #X obj 660 738 outlet;
 #X obj 714 738 outlet;
 #X obj 768 738 outlet;
-#X obj 1223 351 canvas.name;
-#X obj 1184 431 s;
-#X msg 1195 392 symbol \$1-env-trig, f 19;
-#X obj 1223 318 loadbang;
+#X obj 1197 339 canvas.name;
+#X obj 1186 413 s;
+#X msg 1197 374 symbol \$1-env-trig, f 19;
+#X obj 1197 306 loadbang;
 #X obj 584 152 canvas.name;
 #X msg 584 181 symbol \$1-env-trig, f 19;
 #X obj 584 119 loadbang;
@@ -206,6 +206,8 @@
 #X obj 1108 436 bng 60 250 50 0 empty empty empty 17 7 0 10 #191919 #6a47b9 #ffffff;
 #X obj 681 436 bng 60 250 50 0 empty empty empty 17 7 0 10 #191919 #f5a9b8 #ffffff;
 #X obj 610 436 bng 60 250 50 0 empty empty empty 17 7 0 10 #191919 #5bcefa #ffffff;
+#X obj 1183 653 canvas.name;
+#X obj 1183 620 loadbang;
 #X connect 1 0 92 1;
 #X connect 2 0 93 1;
 #X connect 3 0 94 1;
@@ -395,9 +397,10 @@
 #X connect 127 0 158 0;
 #X connect 128 0 34 0;
 #X connect 137 0 139 0;
-#X connect 137 0 59 1;
 #X connect 139 0 138 1;
 #X connect 140 0 137 0;
 #X connect 141 0 142 0;
 #X connect 142 0 144 1;
 #X connect 143 0 141 0;
+#X connect 161 0 59 1;
+#X connect 162 0 161 0;
