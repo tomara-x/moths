@@ -11,6 +11,9 @@
 #X obj 144 167 local-sym hi 1;
 #X obj 243 167 local-sym hello 1;
 #X text 92 114 1 so that canvas.name gets the parent of the patch it's in. namely this subpatch (sub1), f 67;
+#X obj 144 228 print sub1;
+#X connect 1 0 4 0;
+#X connect 2 0 4 0;
 #X restore 222 201 pd sub1;
 #N canvas 0 50 450 300 sub2 1;
 #N canvas 0 50 450 250 (subpatch) 0;
@@ -19,4 +22,7 @@
 #X restore 0 0 graph;
 #X obj 144 167 local-sym hi 1;
 #X obj 243 167 local-sym hello 1;
+#X obj 144 247 print sub2;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
 #X restore 290 201 pd sub2;
