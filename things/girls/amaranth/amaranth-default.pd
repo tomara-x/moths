@@ -122,7 +122,7 @@
 #X obj 686 521 nbx 5 8 -24 24 0 1 empty m-13 empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 736 521 nbx 5 8 -24 24 0 1 empty m-14 empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 786 521 nbx 5 8 -24 24 0 1 empty m-15 empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 841 465 nbx 5 8 0 128 0 1 empty empty mult 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 843 465 nbx 5 8 0 128 0 1 empty empty mult 0 -5 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 125 220 bng 50 250 50 0 empty empty empty 17 7 0 10 #191919 #ed3b4b #ffffff;
 #X obj 175 220 bng 50 250 50 0 empty empty empty 17 7 0 10 #191919 #ff6e1d #ffffff;
 #X obj 225 220 bng 50 250 50 0 empty empty empty 17 7 0 10 #191919 #fbcd26 #ffffff;
@@ -212,7 +212,7 @@
 #X obj 675 547 +;
 #X obj 725 547 +;
 #X obj 775 547 +;
-#X obj 331 102 function 200 100 .x55e7fef7ada0.c-env-trig empty 0 1 25 25 25 255 255 255 0 0 0 0 0 1000 0;
+#X obj 331 102 function 200 100 0-env-trig empty 0 1 25 25 25 255 255 255 0 0 0 0 0 1000 0;
 #X text 134 34 bpm, f 6;
 #X msg 331 65 1 1000 0, f 10;
 #X msg 175 125 reset, f 7;
@@ -224,10 +224,10 @@
 #X obj 489 589 outlet;
 #X obj 543 589 outlet;
 #X obj 597 589 outlet;
-#X obj 874 376 canvas.name;
-#X obj 863 431 s;
-#X msg 874 401 symbol \$1-env-trig, f 19;
-#X obj 874 349 loadbang;
+#X obj 854 376 canvas.name;
+#X obj 843 431 s;
+#X msg 854 401 symbol \$1-env-trig, f 19;
+#X obj 854 349 loadbang;
 #X obj 208 41 canvas.name;
 #X obj 208 15 loadbang;
 #X obj 145 376 bng 50 250 50 0 empty empty empty 17 7 0 10 #191919 #ed3b4b #ffffff;
@@ -310,7 +310,7 @@
 #X restore 801 580 pd synth;
 #X obj 801 609 outlet~;
 #X text 275 101 length, f 7;
-#X msg 208 65 send \$1-env-trig, f 17;
+#X msg 208 65 send \$1-env-func, f 17;
 #X connect 1 0 91 1;
 #X connect 2 0 92 1;
 #X connect 3 0 93 1;
