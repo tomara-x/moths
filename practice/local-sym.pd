@@ -7,7 +7,6 @@
 #X obj 302 411 outlet;
 #X obj 377 411 print;
 #X obj 302 249 pack s s;
-#X obj 302 185 canvas.name 1;
 #X msg 302 304 \$1-\$2, f 8;
 #X obj 426 185 symbol \$1;
 #X obj 302 118 t b b;
@@ -15,11 +14,12 @@
 #X text 26 184 probably can get the argument to this from $, f 37;
 #X text 53 209 ^ to use it inside nested subpatches, f 29;
 #X text 426 410 <- debug, f 9;
-#X connect 1 0 8 0;
-#X connect 4 0 6 0;
-#X connect 5 0 4 0;
-#X connect 6 0 2 0;
-#X connect 6 0 3 0;
-#X connect 7 0 4 1;
-#X connect 8 0 5 0;
-#X connect 8 1 7 0;
+#X obj 297 185 canvas.name \$2;
+#X connect 1 0 7 0;
+#X connect 4 0 5 0;
+#X connect 5 0 2 0;
+#X connect 5 0 3 0;
+#X connect 6 0 4 1;
+#X connect 7 0 12 0;
+#X connect 7 1 6 0;
+#X connect 12 0 4 0;
