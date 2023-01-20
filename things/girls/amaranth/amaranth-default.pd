@@ -492,6 +492,7 @@
 #X obj 839 406 nbx 4 20 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 839 374 s y;
 #X obj 839 447 s z;
+#X obj 26 537 support;
 #X connect 74 0 79 0;
 #X connect 75 0 79 0;
 #X connect 78 0 76 0;

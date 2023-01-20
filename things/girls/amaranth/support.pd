@@ -1,0 +1,11 @@
+#N canvas 827 239 527 327 12;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X text 0 0 plugdatainfo <?xml version="1.0" encoding="UTF-8"?> <plugdatainfo/>;
+#X coords 0 1 100 -1 1 1 1;
+#X restore 0 0 graph;
+#X text 35 104 (and there's some pretty pictures there too), f 35;
+#X text 35 81 ko-fi.com/auaudio, f 16;
+#X text 35 41 i have a ko-fi now where you can send me money if you have too much:, f 57;
+#X text 35 197 github.com/tomara-x/moths, f 23;
+#X text 35 225 where you can come over and ask questions or just troll my issues section :3, f 60;
+#X text 35 175 also if by some chance you got this patch from somewhere else \, this is originally in my github:, f 73;
