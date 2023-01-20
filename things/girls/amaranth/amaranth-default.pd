@@ -213,12 +213,12 @@
 #X obj 665 419 +;
 #X obj 715 419 +;
 #X obj 765 419 +;
-#X obj 746 13 function 200 100 .x557b949ff4a0.c-env-func empty 0 1 25 25 25 255 255 255 1 0 0 0 0.414894 113.402 0 886.598 0;
+#X obj 677 13 function 200 100 empty empty 0 1 25 25 25 255 255 255 1 0 0 0 0.414894 113.402 0 886.598 0;
 #X msg 243 34 reset, f 7;
-#X obj 421 14 inlet;
-#X obj 475 14 inlet;
-#X obj 529 14 inlet;
-#X obj 583 14 inlet;
+#X obj 404 13 inlet;
+#X obj 458 13 inlet;
+#X obj 512 13 inlet;
+#X obj 566 13 inlet;
 #X obj 690 735 outlet;
 #X obj 744 735 outlet;
 #X obj 798 735 outlet;
@@ -256,7 +256,7 @@
 #X obj 725 245 router;
 #X obj 775 245 router;
 #X obj 626 735 outlet~;
-#X obj 637 14 inlet;
+#X obj 620 13 inlet;
 #X obj 726 499 nbx 6 20 0 20000 0 1 empty empty filter1-cf 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
 #X obj 746 530 nbx 4 20 0 1 0 1 empty empty filter1-q 0 -4 0 10 #191919 #ffffff #ffffff 0.42 256;
 #X obj 809 499 nbx 6 20 0 20000 0 1 empty empty filter2-cf 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
@@ -281,6 +281,8 @@
 #X obj 301 547 autotune2;
 #X text 95 524 * 100 and use [cent2ratio], f 22;
 #X text 57 491 fold \, clip \, wrap2?, f 15;
+#X obj 102 661 op * 100;
+#X text 177 661 for a list in semitones, f 18;
 #X connect 1 0 91 1;
 #X connect 2 0 92 1;
 #X connect 3 0 93 1;
