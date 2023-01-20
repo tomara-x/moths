@@ -277,7 +277,7 @@
 #X obj 15 525 semi2ratio;
 #X obj 15 459 * 1;
 #X obj 15 492 %;
-#X obj 65 461 nbx 4 18 0 256 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 128 256;
+#X obj 65 461 nbx 4 18 0 256 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 36 256;
 #X connect 1 0 91 1;
 #X connect 2 0 92 1;
 #X connect 3 0 93 1;
