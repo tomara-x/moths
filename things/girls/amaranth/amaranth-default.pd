@@ -160,7 +160,7 @@
 #X obj 72 34 * 4;
 #X obj 80 69 metro 1 480 permin;
 #X obj 80 97 router 16 15;
-#X obj 348 34 nbx 4 18 1 15 0 1 empty empty last\ step 0 -8 0 10 #191919 #ffacab #ffffff 15 256;
+#X obj 348 34 nbx 4 18 0 15 0 1 empty empty last\ step 0 -8 0 10 #191919 #ffacab #ffffff 15 256;
 #X msg 297 34 0 \$1, f 6;
 #X msg 116 34 tempo \$1 permin, f 17;
 #X obj 15 36 nbx 4 18 -8000 8000 0 1 empty empty bpm 0 -8 0 10 #191919 #ffacab #ffffff 113 256;
