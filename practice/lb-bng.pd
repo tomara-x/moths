@@ -1,0 +1,10 @@
+#N canvas 827 239 527 327 12;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X text 0 0 plugdatainfo <?xml version="1.0" encoding="UTF-8"?> <plugdatainfo/>;
+#X coords 0 1 100 -1 1 1 1;
+#X restore 0 0 graph;
+#X obj 245 68 loadbang;
+#X obj 245 123 bng 299 1000 500 0 empty empty 🦋 15 38 0 71 #191919 #ffacab #ffffff;
+#X obj 245 454 print;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
