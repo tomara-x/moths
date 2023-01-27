@@ -306,9 +306,9 @@
 #X text 332 601 semi shift, f 9;
 #X text 331 658 oct shift, f 8;
 #X msg 361 459 0 1 2 3 4 5 6 7 8 9 10 11, f 22;
-#X obj 855 235 presets env;
+#X obj 855 234 presets env;
 #A saved env 0.414894 108.247 0.0957447 891.753 0 || \; -empty- \; -empty- \; env 0.414894 458.763 0.255319 541.237 0 || \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; env 0.414894 386.598 0.744681 72.1649 0.255319 541.237 0 || \;;
-#X obj 855 160 nbx 4 18 0 64 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 855 160 nbx 4 18 0 63 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 877 187 bng 38 250 50 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff;
 #X text 916 204 make them local to subpatch;
 #X text 916 258 open method doesn't work;
