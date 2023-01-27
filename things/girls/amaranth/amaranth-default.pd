@@ -160,7 +160,7 @@
 #X obj 72 34 * 4;
 #X obj 80 69 metro 1 480 permin;
 #X obj 80 97 router 16 15;
-#X obj 348 34 nbx 4 18 0 15 0 1 empty empty last\ step 0 -8 0 10 #191919 #ffacab #ffffff 15 256;
+#X obj 348 34 nbx 4 18 0 15 0 1 empty empty last\ step 0 -8 0 10 #191919 #ffacab #ffffff 0 256;
 #X msg 297 34 0 \$1, f 6;
 #X msg 116 34 tempo \$1 permin, f 17;
 #X obj 15 36 nbx 4 18 -8000 8000 0 1 empty empty bpm 0 -8 0 10 #191919 #ffacab #ffffff 113 256;
@@ -212,7 +212,7 @@
 #X obj 665 419 +;
 #X obj 715 419 +;
 #X obj 765 419 +;
-#X obj 677 13 function 200 100 empty empty 0 1 25 25 25 255 255 255 1 0 0 0 0.414894 113.402 0 886.598 0;
+#X obj 677 13 function 200 100 empty env 0 1 25 25 25 255 255 255 1 0 0 0 0.414894 108.247 0.0957447 891.753 0;
 #X msg 243 34 reset, f 7;
 #X obj 404 13 inlet;
 #X obj 458 13 inlet;
@@ -306,6 +306,12 @@
 #X text 332 601 semi shift, f 9;
 #X text 331 658 oct shift, f 8;
 #X msg 361 459 0 1 2 3 4 5 6 7 8 9 10 11, f 22;
+#X obj 855 235 presets env;
+#A saved env 0.414894 108.247 0.0957447 891.753 0 || \; -empty- \; -empty- \; env 0.414894 458.763 0.255319 541.237 0 || \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; env 0.414894 386.598 0.744681 72.1649 0.255319 541.237 0 || \;;
+#X obj 855 160 nbx 4 18 0 64 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 877 187 bng 38 250 50 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff;
+#X text 916 204 make them local to subpatch;
+#X text 916 258 open method doesn't work;
 #X connect 1 0 91 1;
 #X connect 2 0 92 1;
 #X connect 3 0 93 1;
@@ -540,6 +546,8 @@
 #X connect 192 0 193 0;
 #X connect 193 0 191 1;
 #X connect 200 0 170 0;
+#X connect 202 0 201 0;
+#X connect 203 0 201 0;
 #X restore 324 309 pd v1;
 #X obj 839 228 s t;
 #X msg 792 259 0, f 5;
