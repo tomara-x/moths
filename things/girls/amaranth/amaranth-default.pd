@@ -160,7 +160,7 @@
 #X obj 72 34 * 4;
 #X obj 80 69 metro 1 480 permin;
 #X obj 80 97 router 16 15;
-#X obj 348 34 nbx 4 18 0 15 0 1 empty empty last\ step 0 -8 0 10 #191919 #ffacab #ffffff 0 256;
+#X obj 348 34 nbx 4 18 0 15 0 1 empty empty last\ step 0 -8 0 10 #191919 #ffacab #ffffff 15 256;
 #X msg 297 34 0 \$1, f 6;
 #X msg 116 34 tempo \$1 permin, f 17;
 #X obj 15 36 nbx 4 18 -8000 8000 0 1 empty empty bpm 0 -8 0 10 #191919 #ffacab #ffffff 113 256;
@@ -312,6 +312,9 @@
 #X obj 877 187 bng 38 250 50 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff;
 #X text 916 204 make them local to subpatch;
 #X text 916 258 open method doesn't work;
+#X text 892 52 change dur to reflect step dur?;
+#X text 892 36 env retrig causes the click;
+#X text 901 77 legato mode?;
 #X connect 1 0 91 1;
 #X connect 2 0 92 1;
 #X connect 3 0 93 1;
