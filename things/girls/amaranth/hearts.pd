@@ -1,0 +1,8 @@
+#N canvas 827 239 527 327 12;
+#X obj 194 73 cnv 28 27 29 empty \$0-red 🧡 -20 193 0 70 #ed3b4b #ed3b4b 0;
+#X obj 265 77 cnv 28 26 29 empty \$0-orange 💛 -22 203 0 71 #ff6e1d #ff6e1d 0;
+#X obj 334 65 cnv 28 27 29 empty \$0-yellow 💚 -18 210 0 69 #fbcd26 #fbcd26 0;
+#X obj 404 51 cnv 28 27 29 empty \$0-green 💙 -22 200 0 69 #53af65 #53af65 0;
+#X obj 470 50 cnv 28 27 29 empty \$0-blue 💜 -19 200 0 69 #2d8ce3 #2d8ce3 0;
+#X obj 539 60 cnv 28 27 29 empty \$0-purple 🤎 -18 201 0 70 #6a47b9 #6a47b9 0;
+#X coords 0 0 1 1 437 146 2 167 192;

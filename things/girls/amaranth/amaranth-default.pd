@@ -87,7 +87,8 @@
 #X obj 152 182 calc-node 13;
 #X obj 152 208 calc-node 14;
 #X obj 152 232 calc-node 15;
-#X text 59 274 you're not supposed to fuck with this! leave it! it just calculates the transposition and multiplier for every step, f 36;
+#X obj 59 352 hearts;
+#X text 59 276 you're not supposed to fuck with this! leave it! it just calculates the transposition and multiplier for every step of the shared sequence (received into every voice's bottom row of float boxes), f 57;
 #X restore 47 157 pd main-seq;
 #X msg 792 187 0, f 5;
 #X obj 839 187 nbx 4 20 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
