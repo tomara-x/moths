@@ -110,7 +110,7 @@
 #X obj 676 393 nbx 4 20 -24 24 0 1 empty m-13 empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 726 393 nbx 4 20 -24 24 0 1 empty m-14 empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 776 393 nbx 4 20 -24 24 0 1 empty m-15 empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 827 339 nbx 4 20 0 128 0 1 empty empty mult 25 26 0 10 #191919 #ffacab #ffffff 0 256;
+#X obj 827 339 nbx 4 20 0 128 0 1 empty empty mult 25 26 0 10 #191919 #ffacab #ffffff 1 256;
 #X obj 115 129 bng 50 250 50 0 empty empty empty 17 7 0 10 #191919 #ed3b4b #ffffff;
 #X obj 165 129 bng 50 250 50 0 empty empty empty 17 7 0 10 #191919 #ff6e1d #ffffff;
 #X obj 215 129 bng 50 250 50 0 empty empty empty 17 7 0 10 #191919 #fbcd26 #ffffff;
@@ -200,7 +200,7 @@
 #X obj 665 419 +;
 #X obj 715 419 +;
 #X obj 765 419 +;
-#X obj 677 13 function 200 100 empty env 0 1 25 25 25 255 255 255 1 0 0 0 0.989362 592.783 0 407.217 0;
+#X obj 677 13 function 200 100 empty env 0 1 25 25 25 255 255 255 1 0 0 0 0 3.68189 0.925532 20.6186 0.319149 36.0825 0.12766 82.4742 0;
 #X msg 243 27 reset, f 7;
 #X obj 404 13 inlet;
 #X obj 458 13 inlet;
