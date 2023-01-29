@@ -202,10 +202,10 @@
 #X obj 765 419 +;
 #X obj 677 13 function 200 100 empty env 0 1 25 25 25 255 255 255 1 0 0 0 0 3.68189 0.925532 20.6186 0.319149 36.0825 0.12766 82.4742 0;
 #X msg 243 27 reset, f 7;
-#X obj 404 13 inlet;
-#X obj 458 13 inlet;
-#X obj 512 13 inlet;
-#X obj 566 13 inlet;
+#X obj 415 13 inlet;
+#X obj 454 13 inlet;
+#X obj 493 13 inlet;
+#X obj 532 13 inlet;
 #X obj 811 618 outlet;
 #X obj 865 618 outlet;
 #X obj 919 618 outlet;
@@ -243,7 +243,7 @@
 #X obj 715 241 router;
 #X obj 765 241 router;
 #X obj 747 618 outlet~;
-#X obj 620 13 inlet;
+#X obj 571 13 inlet;
 #X obj 604 510 nbx 6 20 0 20000 0 1 empty empty filter1-cf 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
 #X obj 671 510 nbx 4 20 0 1 0 1 empty empty filter1-q 0 -4 0 10 #191919 #ffffff #ffffff 0.42 256;
 #X obj 789 510 nbx 6 20 0 20000 0 1 empty empty filter2-cf 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
