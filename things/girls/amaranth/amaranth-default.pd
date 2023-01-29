@@ -244,9 +244,9 @@
 #X obj 765 241 router;
 #X obj 747 618 outlet~;
 #X obj 571 13 inlet;
-#X obj 589 521 nbx 6 20 0 20000 0 1 empty empty filter1-cf 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
+#X obj 589 521 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
 #X obj 655 521 nbx 4 20 0 1 0 1 empty empty filter1-q 0 -4 0 10 #191919 #ffffff #ffffff 0.42 256;
-#X obj 770 521 nbx 6 20 0 20000 0 1 empty empty filter2-cf 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
+#X obj 770 521 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
 #X obj 836 521 nbx 4 20 0 1 0 1 empty empty filter2-q 0 -4 0 10 #191919 #ffffff #ffffff 0.42 256;
 #X obj 577 461 nbx 4 20 0 4 0 1 empty empty gain-i 0 -4 0 10 #191919 #ffffff #ffffff 0.5 256;
 #X obj 642 567 nbx 4 20 -1 0 0 1 empty empty clip\ [ 0 -4 0 10 #191919 #ffffff #ffffff -0.5 256;
@@ -300,6 +300,8 @@
 #X obj 500 614 bl.saw~;
 #X obj 80 64 metro 1;
 #X obj 628 605 clip~;
+#X obj 605 490 hsl 100 20 0 127 0 0 empty empty filter1-cf 46 10 0 14 #191919 #ffffff #ffffff 0 1;
+#X obj 786 490 hsl 100 20 0 127 0 0 empty empty filter2-cf 46 10 0 14 #191919 #ffffff #ffffff 0 1;
 #X connect 0 0 89 1 empty;
 #X connect 1 0 90 1 empty;
 #X connect 2 0 91 1 empty;
@@ -544,6 +546,8 @@
 #X connect 203 0 52 0 empty;
 #X connect 203 0 33 0 48.................F....jH...fA....IB...b9++++n....m++++OJ...P6++++;
 #X connect 204 0 162 0 48.................H....bF....B....mA...H2++++c....x8+++eG...fd++++;
+#X connect 205 0 149 0 32.................F....D++++uA....w++++y.....;
+#X connect 206 0 151 0 32.................F....D++++uA....w++++y.....;
 #X restore 324 309 pd v1;
 #X obj 839 228 s t;
 #X msg 792 259 0, f 5;
