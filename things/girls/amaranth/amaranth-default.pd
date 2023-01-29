@@ -300,8 +300,8 @@
 #X obj 500 614 bl.saw~;
 #X obj 80 64 metro 1;
 #X obj 628 605 clip~;
-#X obj 605 490 hsl 100 20 0 127 0 0 empty empty filter1-cf 46 10 0 14 #191919 #ffffff #ffffff 0 1;
-#X obj 786 490 hsl 100 20 0 127 0 0 empty empty filter2-cf 46 10 0 14 #191919 #ffffff #ffffff 0 1;
+#X obj 605 490 hsl 100 20 0.01 20000 1 1 empty empty filter1-cf 46 10 0 14 #191919 #ffffff #ffffff 0 1;
+#X obj 786 490 hsl 100 20 0.01 20000 1 1 empty empty filter2-cf 46 10 0 14 #191919 #ffffff #ffffff 0 1;
 #X connect 0 0 89 1 empty;
 #X connect 1 0 90 1 empty;
 #X connect 2 0 91 1 empty;
@@ -561,6 +561,7 @@
 #X obj 839 447 s z;
 #X obj 26 513 support;
 #X text 758 513 drink some water!, f 16;
+#X text 437 309 make a copy;
 #X connect 72 0 77 0 empty;
 #X connect 73 0 77 0 empty;
 #X connect 76 0 74 0 empty;
