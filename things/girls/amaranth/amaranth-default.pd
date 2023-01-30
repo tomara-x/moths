@@ -244,14 +244,14 @@
 #X obj 765 241 router;
 #X obj 747 618 outlet~;
 #X obj 571 13 inlet;
-#X obj 589 521 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
+#X obj 589 521 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 0.01 256;
 #X obj 655 521 nbx 4 20 0 1 0 1 empty empty filter1-q 0 -4 0 10 #191919 #ffffff #ffffff 0.42 256;
-#X obj 770 521 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
+#X obj 770 521 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 0.01 256;
 #X obj 836 521 nbx 4 20 0 1 0 1 empty empty filter2-q 0 -4 0 10 #191919 #ffffff #ffffff 0.42 256;
-#X obj 577 461 nbx 4 20 0 4 0 1 empty empty gain-i 0 -4 0 10 #191919 #ffffff #ffffff 0.5 256;
+#X obj 577 461 nbx 4 20 0 32 0 1 empty empty gain-i 0 -4 0 10 #191919 #ffffff #ffffff 0.5 256;
 #X obj 642 567 nbx 4 20 -1 0 0 1 empty empty clip\ [ 0 -4 0 10 #191919 #ffffff #ffffff -0.5 256;
 #X obj 692 567 nbx 4 20 0 1 0 1 empty empty clip\ ] 0 -4 0 10 #191919 #ffffff #ffffff 0.5 256;
-#X obj 758 461 nbx 4 20 0 4 0 1 empty empty gain-f 0 -4 0 10 #191919 #ffffff #ffffff 0.5 256;
+#X obj 758 461 nbx 4 20 0 32 0 1 empty empty gain-f 0 -4 0 10 #191919 #ffffff #ffffff 0.5 256;
 #X obj 566 555 svfilter~;
 #X obj 747 555 svfilter~;
 #X obj 877 338 envgen~, f 9;
