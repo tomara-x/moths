@@ -1,9 +1,9 @@
 #N canvas 0 50 450 300 12;
-#X text 28 225 to magic girls and blood, f 20;
-#X text 28 264 to beings impossible to chain, f 25;
-#X text 28 187 to her, f 7;
-#X text 28 419 love \, tomara, f 11;
-#X text 28 294 to sweet little unforgettable things, f 24;
+#X text 28 225 to magic girls and blood, f 22;
+#X text 17 258 to beings impossible to chain, f 26;
+#X text 71 191 to her, f 7;
+#X text 17 342 love \, tomara, f 11;
+#X text 47 290 to sweet little unforgettable things, f 32;
 #X text 398 79 @, f 4;
 #X text 123 88 ., f 4;
 #X text 156 157 *, f 2;
@@ -23,5 +23,5 @@
 #X text 420 56 i, f 4;
 #X text 450 118 d, f 4;
 #X text 484 165 e, f 4;
-#X text 31 337 and giants who kindly let me stand on their shoulders, f 25;
-#X obj 112 389 emoji;
+#X text 22 318 and giants who kindly let me stand on their shoulders, f 44;
+#X obj 22 376 emoji;
