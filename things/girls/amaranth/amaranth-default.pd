@@ -302,6 +302,8 @@
 #X obj 605 490 hsl 100 20 0.01 20000 1 1 empty empty filter1-cf 50 10 0 14 #191919 #ffffff #ffffff 8229 1;
 #X obj 786 490 hsl 100 20 0.01 20000 1 1 empty empty filter2-cf 50 10 0 14 #191919 #ffffff #ffffff 8229 1;
 #X obj 405 13 inlet~;
+#X obj 877 197 switch~;
+#X obj 877 160 tgl 25 0 empty empty DSP 0 -7 0 12 #191919 #ff0000 #ffffff 0 1;
 #X connect 0 0 89 1 empty;
 #X connect 1 0 90 1 empty;
 #X connect 2 0 91 1 empty;
@@ -548,6 +550,7 @@
 #X connect 203 0 161 0 48.................H....bF....B....mA...H2++++c....x8+++eG...fd++++;
 #X connect 204 0 148 0 32.................F....D++++uA....w++++y.....;
 #X connect 205 0 150 0 32.................F....D++++uA....w++++y.....;
+#X connect 208 0 207 0 empty;
 #X restore 324 309 pd v1;
 #X obj 830 221 s t;
 #X msg 783 250 0, f 5;
