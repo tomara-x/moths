@@ -303,7 +303,7 @@
 #X obj 786 490 hsl 100 20 0.01 20000 1 1 empty empty filter2-cf 50 10 0 14 #191919 #ffffff #ffffff 8229 1;
 #X obj 405 13 inlet~;
 #X obj 877 197 switch~;
-#X obj 877 160 tgl 25 0 empty empty DSP 0 -7 0 12 #191919 #ff0000 #ffffff 0 1;
+#X obj 877 160 tgl 25 1 empty empty DSP 0 -7 0 12 #191919 #ff0000 #ffffff 1 1;
 #X connect 0 0 89 1 empty;
 #X connect 1 0 90 1 empty;
 #X connect 2 0 91 1 empty;
