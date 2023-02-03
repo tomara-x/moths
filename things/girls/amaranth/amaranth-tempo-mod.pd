@@ -163,7 +163,7 @@
 #X obj 348 27 nbx 4 18 0 15 0 1 empty empty last\ step 0 -8 0 10 #191919 #ffacab #ffffff 15 256;
 #X msg 297 27 0 \$1, f 6;
 #X msg 116 27 tempo \$1 permin, f 17;
-#X obj 15 29 nbx 4 18 -8000 8000 0 1 empty empty bpm 0 -8 0 10 #191919 #ffacab #ffffff 85 256;
+#X obj 15 29 nbx 4 18 -8000 8000 0 1 empty empty bpm 0 -8 0 10 #191919 #ffacab #ffffff 158 256;
 #X obj 26 339 nbx 4 20 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 76 340 nbx 4 20 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 126 340 nbx 4 20 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 7 256;
@@ -212,7 +212,7 @@
 #X obj 665 419 +;
 #X obj 715 419 +;
 #X obj 765 419 +;
-#X obj 677 13 function 200 100 empty env 0 1 25 25 25 255 255 255 1 0 0 0 0 4.54822 0.925532 6.36748 0.670213 6.36751 0.478723 7.27712 0.329787 13.6446 0.170213 18.1929 0.0851064 120.073 0;
+#X obj 677 13 function 200 100 empty env 0 1 25 25 25 255 255 255 1 0 0 0 0 2.44682 0.925532 3.42554 0.670213 3.42554 0.478723 3.91492 0.329787 7.34043 0.170213 9.78732 0.0851064 64.5961 0;
 #X msg 243 27 reset, f 7;
 #X obj 454 13 inlet;
 #X obj 493 13 inlet;
@@ -255,7 +255,7 @@
 #X obj 765 244 router;
 #X obj 747 618 outlet~;
 #X obj 571 13 inlet;
-#X obj 589 521 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1315.33 256;
+#X obj 589 521 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1235.21 256;
 #X obj 655 521 nbx 4 20 0 1 0 1 empty empty filter1-q 0 -4 0 10 #191919 #ffffff #ffffff 0.94 256;
 #X obj 770 521 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1655.9 256;
 #X obj 836 521 nbx 4 20 0 1 0 1 empty empty filter2-q 0 -4 0 10 #191919 #ffffff #ffffff 0.42 256;
@@ -317,7 +317,7 @@
 #X obj 877 197 switch~;
 #X obj 877 160 tgl 25 1 empty empty DSP 0 -7 0 12 #191919 #ff0000 #ffffff 1 1;
 #X obj 985 222 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 985 320 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 985 320 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 158 256;
 #X obj 985 182 bangdiv 10;
 #X obj 985 280 bangdiv 20;
 #X connect 0 0 89 1 empty;
