@@ -212,7 +212,7 @@
 #X obj 665 419 +;
 #X obj 715 419 +;
 #X obj 765 419 +;
-#X obj 677 13 function 200 100 empty env 0 1 25 25 25 255 255 255 1 0 0 0 0 2.44682 0.925532 3.42554 0.670213 3.42554 0.478723 3.91492 0.329787 7.34043 0.170213 9.78732 0.0851064 64.5961 0;
+#X obj 677 13 function 200 100 empty env 0 1 25 25 25 255 255 255 1 0 0 0 0 2.44682 0.925532 3.42554 0.670213 3.42554 0.478723 3.91492 0.329787 7.34044 0.170213 9.7873 0.0851064 64.5961 0;
 #X msg 243 27 reset, f 7;
 #X obj 454 13 inlet;
 #X obj 493 13 inlet;
@@ -316,7 +316,7 @@
 #X obj 405 13 inlet~;
 #X obj 877 197 switch~;
 #X obj 877 160 tgl 25 1 empty empty DSP 0 -7 0 12 #191919 #ff0000 #ffffff 1 1;
-#X obj 985 222 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 985 222 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 3853 256;
 #X obj 985 320 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 158 256;
 #X obj 985 182 bangdiv 10;
 #X obj 985 280 bangdiv 20;
