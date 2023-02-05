@@ -1,8 +1,6 @@
 #N canvas 827 239 527 327 12;
-#X text 35 82 ko-fi.com/auaudio, f 21;
-#X text 35 41 i have a ko-fi now where you can send me money if you have too much:, f 57;
-#X text 35 205 github.com/tomara-x/moths, f 34;
-#X obj 292 42 cnv 4 3 3 empty disp 🦋 -12 134 0 286 #ffacab #44abff 0;
-#X text 35 106 (there's some pretty pictures there too), f 43;
-#X text 35 165 also if by some chance you got this patch from somewhere else \, this is originally in my github:, f 39;
-#X text 35 242 where you can come over and ask questions or just troll my issues section :3, f 38;
+#X obj 232 22 cnv 4 3 3 empty disp 🦋 -12 134 0 286 #ffacab #44abff 0;
+#X text 25 50 home page:;
+#X text 25 70 https://github.com/tomara-x/moths, f 30;
+#X text 25 144 https://ko-fi.com/auaudio, f 25;
+#X text 25 121 send me money:, f 16;
