@@ -313,9 +313,9 @@
 #X obj 405 13 inlet~;
 #X obj 877 197 switch~;
 #X obj 877 160 tgl 25 1 empty empty DSP 0 -7 0 12 #191919 #ff0000 #ffffff 1 1;
-#X obj 466 614 saw~, f 7;
 #X text 419 478 n. minor, f 9;
 #X text 454 453 chromatic;
+#X obj 466 614 bl.square~, f 11;
 #X connect 0 0 89 1 empty;
 #X connect 1 0 90 1 empty;
 #X connect 2 0 91 1 empty;
@@ -539,7 +539,7 @@
 #X connect 180 1 172 0 32.................E....7B...PA....u....TD....;
 #X connect 180 2 174 0 32.................E....DF...PA....gA...TD....;
 #X connect 181 0 180 1 48.................H....v9+++OB....r++++G++++O1++++w++++i8+++O9++++;
-#X connect 182 0 206 0 empty;
+#X connect 182 0 208 0 empty;
 #X connect 183 0 185 0 empty;
 #X connect 184 0 186 0 48.................J....bE...fB....WA...j9+++Oc....o++++SG...f6++++;
 #X connect 185 0 184 1 48.................F.....++++uA....v++++q9++++2++++p+++++8+++O7++++;
@@ -562,7 +562,7 @@
 #X connect 201 0 148 0 32.................E....v9+++eA....r++++m.....;
 #X connect 202 0 150 0 32.................E....z9+++eA....s++++m.....;
 #X connect 205 0 204 0 empty;
-#X connect 206 0 159 0 48.................I....zD...PB....MA...r1+++OY....q8+++SF...Pb++++;
+#X connect 208 0 159 0 48.................I....zD...PB....MA...r1+++OY....q8+++SF...Pb++++;
 #X restore 324 263 pd sequence-a;
 #X obj 324 313 clip~ -0.1 0.1;
 #X connect 72 0 76 0 empty;
