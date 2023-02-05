@@ -1,0 +1,12 @@
+#N canvas 827 239 527 327 12;
+#X obj 248 236 nbx 14 47 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 343 151 * 100;
+#X msg 248 113 -30;
+#X msg 343 113 -0.3;
+#X obj 248 332 autotune2;
+#X obj 248 410 nbx 30 47 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X connect 0 0 4 0 empty;
+#X connect 1 0 0 0 empty;
+#X connect 2 0 0 0 empty;
+#X connect 3 0 1 0 empty;
+#X connect 4 0 5 0 empty;
