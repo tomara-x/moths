@@ -255,9 +255,9 @@
 #X obj 765 244 router;
 #X obj 732 618 outlet~;
 #X obj 571 13 inlet;
-#X obj 589 530 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
+#X obj 589 530 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1791.92 256;
 #X obj 656 530 nbx 4 20 0 1 0 1 empty empty Q 45 10 0 12 #191919 #ffffff #ffffff 0.42 256;
-#X obj 755 530 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1729 256;
+#X obj 755 530 nbx 6 20 0 20000 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1791.92 256;
 #X obj 822 530 nbx 4 20 0 1 0 1 empty empty Q 45 10 0 12 #191919 #ffffff #ffffff 0.42 256;
 #X obj 577 452 nbx 4 20 0 32 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 0.1 256;
 #X obj 580 586 nbx 4 20 -1 0 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff -0.5 256;
@@ -566,7 +566,7 @@
 #X restore 156 235 pd sequence-a;
 #X obj 156 285 clip~ -0.1 0.1;
 #X obj 500 459 giga.rev~;
-#X obj 604 154 vradio 15 1 1 10 empty empty empty 0 -8 0 10 #dcdcdc #000000 #000000 0;
+#X obj 604 154 vradio 15 1 1 10 empty empty empty 0 -8 0 10 #dcdcdc #000000 #000000 5;
 #N canvas 728 150 712 728 presets 1;
 #X obj 93 11 inlet;
 #X obj 110 512 s \$0-set;
@@ -635,10 +635,10 @@
 #X text 621 284 - canyon;
 #X text 621 224 - singing in the sewer;
 #X text 621 194 - bright small hall;
-#X msg 599 393 wet \$1;
-#X msg 669 393 dry \$1;
-#X obj 669 354 nbx 5 33 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 599 354 nbx 5 33 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X msg 599 421 wet \$1;
+#X msg 669 421 dry \$1;
+#X obj 669 364 nbx 5 33 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 599 364 nbx 5 33 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X connect 72 0 76 0 empty;
 #X connect 73 0 76 0 empty;
 #X connect 77 0 79 0 empty;
@@ -655,5 +655,3 @@
 #X connect 92 0 90 0 empty;
 #X connect 103 0 90 0 empty;
 #X connect 104 0 90 0 empty;
-#X connect 105 0 104 0 empty;
-#X connect 106 0 103 0 empty;
