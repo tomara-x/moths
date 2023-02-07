@@ -611,6 +611,7 @@
 #X text 246 300 singing in the sewer;
 #X text 229 352 nice hall effect;
 #X text 207 405 bright small hall;
+#X text 163 10 stolen from ELSE help file :3;
 #X connect 0 0 16 0 empty;
 #X connect 7 0 8 0 empty;
 #X connect 12 0 13 0 empty;
