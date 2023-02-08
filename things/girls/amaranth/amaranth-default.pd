@@ -67,9 +67,9 @@
 #X text 20 49 x, f 2;
 #X text 20 79 y, f 2;
 #X text 20 109 z, f 2;
-#X obj 830 50 nbx 4 20 0 128 0 1 x-mult empty mult 0 -6 0 14 #191919 #ffacab #ffffff 0 256;
-#X obj 830 80 nbx 4 20 0 128 0 1 y-mult empty empty 0 -4 0 10 #191919 #ffacab #ffffff 0 256;
-#X obj 830 110 nbx 4 20 0 128 0 1 z-mult empty empty 0 -4 0 10 #191919 #ffacab #ffffff 0 256;
+#X obj 830 50 nbx 3 20 -128 128 0 1 x-mult empty mult 0 -6 0 14 #191919 #ffacab #ffffff 0 256;
+#X obj 830 80 nbx 3 20 -128 128 0 1 y-mult empty empty 0 -4 0 14 #191919 #ffacab #ffffff 0 256;
+#X obj 830 110 nbx 3 20 -128 128 0 1 z-mult empty empty 0 -4 0 14 #191919 #ffacab #ffffff 0 256;
 #N canvas 0 50 450 300 main-seq 1;
 #X obj 59 56 calc-node 0;
 #X obj 59 82 calc-node 1;
