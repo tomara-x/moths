@@ -88,9 +88,11 @@
 #X obj 152 208 calc-node 14;
 #X obj 152 232 calc-node 15;
 #X obj 59 352 hearts;
-#X text 59 276 for every step in the sequence \, the value (t + x * x-mult + y * y-mult + z * z-mult) is received into every sequence in the bottom row of numboxes there. which is then added to the offset of that sequence (times its multiplier) and that's how the melody is generated for each sequenc, f 61;
+#X text 59 259 for every step in the sequence \, the value:;
+#X text 59 279 is received into every sequence in the bottom row of numboxes there. which is then added to the offset of that sequence (times its multiplier) and that's how the melody is generated for each sequenc, f 58;
+#X text 309 259 t + x * x-mult + y * y-mult + z * z-mult;
 #X restore 50 150 pd main-seq;
-#X obj 622 500 dac~;
+#X obj 609 500 dac~;
 #X obj 30 470 thanks;
 #X obj 30 500 support;
 #X text 766 499 drink some water!, f 16;
@@ -643,6 +645,7 @@
 #X text 242 3 4;
 #X text 434 3 8;
 #X text 626 3 12;
+#X text 20 230 start here -->;
 #X connect 76 0 77 0 empty;
 #X connect 77 0 78 0 empty;
 #X connect 78 0 72 0 empty;
