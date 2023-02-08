@@ -19,6 +19,7 @@
 #X obj 257 166 t b f;
 #X obj 408 166 t b f;
 #X obj 555 166 t b f;
+#X text 69 248 use expr!;
 #X connect 0 0 11 0 empty;
 #X connect 1 0 4 0 empty;
 #X connect 2 0 8 0 empty;
