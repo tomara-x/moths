@@ -1,0 +1,8 @@
+#N canvas 827 239 527 327 12;
+#X obj 252 12 cnv 4 3 3 empty disp 🦋 -12 134 0 286 #ffacab #44abff 0;
+#X text 25 50 home page:;
+#X text 25 70 https://github.com/tomara-x/moths, f 30;
+#X text 25 237 https://ko-fi.com/auaudio;
+#X text 25 214 send me money:, f 16;
+#X text 25 149 https://www.youtube.com/playlist?list=PLW3qKRjtGsGYMB2Zkd_E8GUU23XFCzif4, f 36;
+#X text 25 129 vooommwawawawawaaavezzzz:;

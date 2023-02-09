@@ -72,7 +72,7 @@
 #X obj 830 120 nbx 3 20 -128 128 0 1 z-mult empty empty 0 -4 0 14 #191919 #ffacab #ffffff 0 256;
 #X obj 609 500 dac~;
 #X obj 30 470 thanks;
-#X obj 30 500 support;
+#X obj 30 500 links;
 #X text 766 499 drink some water!, f 16;
 #N canvas 0 50 450 300 sequence-a 1;
 #X obj 26 392 nbx 4 20 -1000 1000 0 1 empty m-0 empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
