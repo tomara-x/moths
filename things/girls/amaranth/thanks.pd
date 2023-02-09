@@ -16,7 +16,7 @@
 #X text 469 107 ., f 3;
 #X text 372 52 ., f 3;
 #X text 194 48 *, f 2;
-#X obj 206 95 cnv 123 123 117 empty empty @ 8 46 0 139 #232323 #ffffff 0;
+#X obj 206 95 cnv 12 11 11 empty empty @ 8 46 0 139 #232323 #ffffff 0;
 #X text 60 107 a, f 4;
 #X text 236 70 e, f 4;
 #X text 350 123 g, f 4;
