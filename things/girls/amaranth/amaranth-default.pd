@@ -289,6 +289,7 @@
 #X msg 195 39 min \$1, f 8;
 #X msg 400 70 reset \$1;
 #X obj 400 45 nbx 4 18 0 15 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X msg 370 540 0 3 5 6 7 10;
 #X connect 0 0 81 1 empty;
 #X connect 1 0 82 1 empty;
 #X connect 2 0 83 1 empty;
@@ -541,6 +542,7 @@
 #X connect 211 0 204 0 empty;
 #X connect 212 0 204 0 48.................E....v0+++eA....b8+++i9+++OM++++n++++Sy+++e6++++;
 #X connect 213 0 212 0 empty;
+#X connect 214 0 156 0 48.................F....L++++uA....y++++q9++++u++++p+++++6+++e6++++;
 #X restore 156 235 pd sequence-a;
 #X obj 156 285 clip~ -0.1 0.1;
 #X obj 609 459 giga.rev~;
