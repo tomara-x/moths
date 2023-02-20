@@ -1,0 +1,6 @@
+#N canvas 827 239 527 327 12;
+#X obj 220 200 springus;
+#X obj 220 130 nbx 4 18 0 100 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 74 256;
+#X obj 400 130 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X connect 1 0 0 0 empty;
+#X connect 2 0 0 1 empty;
