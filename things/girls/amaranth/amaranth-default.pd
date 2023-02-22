@@ -549,7 +549,7 @@
 #X restore 156 235 pd sequence-a;
 #X obj 156 285 clip~ -0.1 0.1;
 #X obj 609 415 giga.rev~;
-#X obj 615 156 vradio 15 1 1 10 empty empty empty 0 -8 0 10 #dcdcdc #000000 #000000 5;
+#X obj 615 156 vradio 15 1 1 10 empty empty empty 0 -8 0 10 #191919 #ffffff #000000 5;
 #N canvas 728 150 712 728 presets 1;
 #X obj 93 11 inlet;
 #X text 529 385 bathroom;
