@@ -611,10 +611,10 @@
 #X msg 699 381 dry \$1;
 #X obj 699 344 nbx 5 33 0 1 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 629 344 nbx 5 33 0 1 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X text 50 3 0;
-#X text 242 3 4;
-#X text 434 3 8;
-#X text 626 3 12;
+#X text 50 9 0;
+#X text 250 9 4;
+#X text 450 9 8;
+#X text 650 9 12;
 #X text 20 233 start here -->;
 #N canvas 0 50 450 300 shared-seq 1;
 #X obj 59 56 calc-node 0;
