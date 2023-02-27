@@ -251,7 +251,7 @@
 #X msg 505 90 duration \$1;
 #X obj 565 66 nbx 4 18 0.001 30 0 1 empty empty empty 0 -8 0 10 #191919 #ffacab #ffffff 0.14 256;
 #X msg 880 292 retrigger \$1;
-#X obj 880 265 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffacab #ffffff 0 256;
+#X obj 880 265 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 732 482 clip~;
 #X obj 403 6 inlet~;
 #X text 236 476 n. minor, f 9;
