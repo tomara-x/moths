@@ -775,7 +775,7 @@
 #X text 59 259 for every step in the sequence \, the value:;
 #X text 59 279 is received into every sequence in the bottom row of numboxes there. which is then added to the offset of that sequence (times its multiplier) and that's how the melody is generated for each sequenc, f 58;
 #X text 309 259 t + x * x-mult + y * y-mult + z * z-mult;
-#N canvas 0 50 450 250 (subpatch) 1;
+#N canvas 0 50 450 250 (subpatch) 0;
 #X obj 35 60 cnv 28 27 29 empty \$0-red 🧡 -20 193 0 70 #ed3b4b #ed3b4b 0;
 #X obj 106 64 cnv 28 26 29 empty \$0-orange 💛 -22 203 0 71 #ff6e1d #ff6e1d 0;
 #X obj 175 52 cnv 28 27 29 empty \$0-yellow 💚 -18 210 0 69 #fbcd26 #fbcd26 0;
@@ -784,7 +784,7 @@
 #X obj 380 47 cnv 28 27 29 empty \$0-purple 🤎 -18 201 0 70 #6a47b9 #6a47b9 0;
 #X coords 0 1 100 -1 443 121 2 3 191;
 #X restore 59 352 graph;
-#N canvas 0 50 450 300 calc-node-0 1;
+#N canvas 0 50 450 300 calc-node-0 0;
 #X obj 140 110 *;
 #X obj 140 30 r x-mult;
 #X obj 270 30 r y-mult;
@@ -832,7 +832,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 60 20 pd calc-node-0;
-#N canvas 0 50 450 300 calc-node-1 1;
+#N canvas 0 50 450 300 calc-node-1 0;
 #X obj 140 110 *;
 #X obj 140 30 r x-mult;
 #X obj 270 30 r y-mult;
@@ -880,7 +880,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 60 50 pd calc-node-1;
-#N canvas 0 50 450 300 calc-node-2 1;
+#N canvas 0 50 450 300 calc-node-2 0;
 #X obj 140 110 *;
 #X obj 140 30 r x-mult;
 #X obj 270 30 r y-mult;
@@ -928,7 +928,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 60 80 pd calc-node-2;
-#N canvas 0 50 450 300 calc-node-3 1;
+#N canvas 0 50 450 300 calc-node-3 0;
 #X obj 140 110 *;
 #X obj 140 30 r x-mult;
 #X obj 270 30 r y-mult;
@@ -976,7 +976,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 60 110 pd calc-node-3;
-#N canvas 0 50 450 300 calc-node-4 1;
+#N canvas 0 50 450 300 calc-node-4 0;
 #X obj 140 110 *;
 #X obj 140 30 r x-mult;
 #X obj 270 30 r y-mult;
@@ -1025,7 +1025,7 @@
 #X connect 18 0 5 0 empty;
 #X restore 60 140 pd calc-node-4;
 #X f 15;
-#N canvas 0 50 450 300 calc-node-5 1;
+#N canvas 0 50 450 300 calc-node-5 0;
 #X obj 140 110 *;
 #X obj 140 30 r x-mult;
 #X obj 270 30 r y-mult;
@@ -1073,7 +1073,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 60 170 pd calc-node-5;
-#N canvas 0 50 450 300 calc-node-6 1;
+#N canvas 0 50 450 300 calc-node-6 0;
 #X obj 130 100 *;
 #X obj 130 20 r x-mult;
 #X obj 260 20 r y-mult;
@@ -1121,7 +1121,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 60 200 pd calc-node-6;
-#N canvas 0 50 450 300 calc-node-7 1;
+#N canvas 0 50 450 300 calc-node-7 0;
 #X obj 130 100 *;
 #X obj 130 20 r x-mult;
 #X obj 260 20 r y-mult;
@@ -1169,7 +1169,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 60 230 pd calc-node-7;
-#N canvas 0 50 450 300 calc-node-8 1;
+#N canvas 0 50 450 300 calc-node-8 0;
 #X obj 130 100 *;
 #X obj 130 20 r x-mult;
 #X obj 260 20 r y-mult;
@@ -1217,7 +1217,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 200 20 pd calc-node-8;
-#N canvas 0 50 450 300 calc-node-9 1;
+#N canvas 0 50 450 300 calc-node-9 0;
 #X obj 130 100 *;
 #X obj 130 20 r x-mult;
 #X obj 260 20 r y-mult;
@@ -1265,7 +1265,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 200 50 pd calc-node-9;
-#N canvas 0 50 450 300 calc-node-10 1;
+#N canvas 0 50 450 300 calc-node-10 0;
 #X obj 130 100 *;
 #X obj 130 20 r x-mult;
 #X obj 260 20 r y-mult;
@@ -1313,7 +1313,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 200 80 pd calc-node-10;
-#N canvas 0 50 450 300 calc-node-11 1;
+#N canvas 0 50 450 300 calc-node-11 0;
 #X obj 130 100 *;
 #X obj 130 20 r x-mult;
 #X obj 260 20 r y-mult;
@@ -1361,7 +1361,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 200 110 pd calc-node-11;
-#N canvas 0 50 450 300 calc-node-12 1;
+#N canvas 0 50 450 300 calc-node-12 0;
 #X obj 130 100 *;
 #X obj 130 20 r x-mult;
 #X obj 260 20 r y-mult;
@@ -1409,7 +1409,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 200 140 pd calc-node-12;
-#N canvas 0 50 450 300 calc-node-13 1;
+#N canvas 0 50 450 300 calc-node-13 0;
 #X obj 130 100 *;
 #X obj 130 20 r x-mult;
 #X obj 260 20 r y-mult;
@@ -1457,7 +1457,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 200 170 pd calc-node-13;
-#N canvas 0 50 450 300 calc-node-14 1;
+#N canvas 0 50 450 300 calc-node-14 0;
 #X obj 130 100 *;
 #X obj 130 20 r x-mult;
 #X obj 260 20 r y-mult;
@@ -1505,7 +1505,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 200 200 pd calc-node-14;
-#N canvas 0 50 450 300 calc-node-15 1;
+#N canvas 0 50 450 300 calc-node-15 0;
 #X obj 130 100 *;
 #X obj 130 20 r x-mult;
 #X obj 260 20 r y-mult;
@@ -1561,7 +1561,7 @@
 #X obj 540 380 *~ 1;
 #X msg 720 380 open amaranth-230.wav;
 #N canvas 0 50 450 300 links 1;
-#X obj 260 10 cnv 31 30 30 empty disp 🦋 -12 134 0 286 #ffacab #44abff 0;
+#X obj 260 10 cnv 31 30 30 empty empty 🦋 -12 134 0 286 #ffacab #44abff 0;
 #X text 28 49 home page:;
 #X text 28 69 https://github.com/tomara-x/moths, f 30;
 #X text 28 256 https://ko-fi.com/auaudio;
@@ -1595,7 +1595,7 @@
 #X text 464 114 d, f 4;
 #X text 498 161 e, f 4;
 #X text 36 314 and giants who kindly let me stand on their shoulders, f 44;
-#N canvas 0 50 450 250 (subpatch) 1;
+#N canvas 0 50 450 250 (subpatch) 0;
 #X obj 164 396 pick;
 #X obj 164 234 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 164 269 t b f;
@@ -1609,7 +1609,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🥦 609 -204 0 100 #ffffff #ffffff #00ff88;
+#X obj 20 490 bng 25 250 50 0 empty empty ☢️ 609 -204 0 100 #ffffff #ffffff #ff8800;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
