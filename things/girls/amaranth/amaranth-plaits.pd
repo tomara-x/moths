@@ -89,7 +89,7 @@
 #X obj 676 393 nbx 4 20 -1000 1000 0 1 empty m-13 empty 0 -8 0 10 #191919 #53af65 #ffffff 0 256;
 #X obj 726 393 nbx 4 20 -1000 1000 0 1 empty m-14 empty 0 -8 0 10 #191919 #2d8ce3 #ffffff 0 256;
 #X obj 776 393 nbx 4 20 -1000 1000 0 1 empty m-15 empty 0 -8 0 10 #191919 #6a47b9 #ffffff 0 256;
-#X obj 827 339 nbx 4 20 0 128 0 1 empty empty mult 25 26 0 10 #191919 #ffacab #ffffff 1 256;
+#X obj 827 339 nbx 4 20 -128 128 0 1 empty empty mult 25 26 0 10 #191919 #ffacab #ffffff 1 256;
 #X obj 115 130 bng 50 250 50 0 empty empty empty 17 7 0 10 #191919 #ed3b4b #ffffff;
 #X obj 165 130 bng 50 250 50 0 empty empty empty 17 7 0 10 #191919 #ff6e1d #ffffff;
 #X obj 215 130 bng 50 250 50 0 empty empty empty 17 7 0 10 #191919 #fbcd26 #ffffff;
@@ -1501,7 +1501,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 💧 609 -204 0 100 #ffffff #ffffff #0026ff;
+#X obj 20 490 bng 25 250 50 0 empty empty 🆓 609 -204 0 100 #ffffff #ffffff #ffd900;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
