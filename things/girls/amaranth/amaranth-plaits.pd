@@ -287,7 +287,7 @@
 #X obj 327 578 * 12, f 7;
 #X obj 397 591 nbx 4 18 1 100 0 1 empty empty n-tet 21 -6 0 14 #191919 #ffacab #ffffff 12 256;
 #X text 226 451 chromatic;
-#N canvas 0 50 450 300 semi2freq 1;
+#N canvas 0 50 450 300 semi2freq 0;
 #X obj 219 134 inlet;
 #X obj 273 134 inlet;
 #X obj 257 423 outlet;
@@ -315,7 +315,7 @@
 #X restore 331 616 pd semi2freq;
 #X f 13;
 #X obj 470 613 plaits~;
-#N canvas 635 23 520 608 messages 1;
+#N canvas 635 23 520 608 messages 0;
 #X msg 124 231 harmonics \$1;
 #X msg 142 262 timbre \$1;
 #X msg 150 290 morph \$1;
@@ -668,12 +668,12 @@
 #X text 59 279 is received into every sequence in the bottom row of numboxes there. which is then added to the offset of that sequence (times its multiplier) and that's how the melody is generated for each sequenc, f 58;
 #X text 309 259 t + x * x-mult + y * y-mult + z * z-mult;
 #N canvas 0 50 450 250 (subpatch) 0;
-#X obj 35 60 cnv 28 27 29 empty \$0-red 🧡 -20 193 0 70 #ed3b4b #ed3b4b 0;
-#X obj 106 64 cnv 28 26 29 empty \$0-orange 💛 -22 203 0 71 #ff6e1d #ff6e1d 0;
-#X obj 175 52 cnv 28 27 29 empty \$0-yellow 💚 -18 210 0 69 #fbcd26 #fbcd26 0;
-#X obj 245 38 cnv 28 27 29 empty \$0-green 💙 -22 200 0 69 #53af65 #53af65 0;
-#X obj 311 37 cnv 28 27 29 empty \$0-blue 💜 -19 200 0 69 #2d8ce3 #2d8ce3 0;
-#X obj 380 47 cnv 28 27 29 empty \$0-purple 🤎 -18 201 0 70 #6a47b9 #6a47b9 0;
+#X obj 35 60 cnv 28 27 29 empty empty 💖 -20 193 0 70 #ed3b4b #ed3b4b 0;
+#X obj 106 64 cnv 28 26 29 empty empty 🧡 -22 203 0 71 #ff6e1d #ff6e1d 0;
+#X obj 175 52 cnv 28 27 29 empty empty 💛 -18 210 0 69 #fbcd26 #fbcd26 0;
+#X obj 245 38 cnv 28 27 29 empty empty 💚 -22 200 0 69 #53af65 #53af65 0;
+#X obj 311 37 cnv 28 27 29 empty empty 💙 -19 200 0 69 #2d8ce3 #2d8ce3 0;
+#X obj 380 47 cnv 28 27 29 empty empty 💜 -18 201 0 70 #6a47b9 #6a47b9 0;
 #X coords 0 1 100 -1 443 121 2 3 191;
 #X restore 59 352 graph;
 #N canvas 0 50 450 300 calc-node-0 0;
@@ -1501,7 +1501,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🆓 609 -204 0 100 #ffffff #ffffff #ffd900;
+#X obj 20 490 bng 25 250 50 0 empty empty 🦝 609 -204 0 100 #ffffff #ffffff #1900ff;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
