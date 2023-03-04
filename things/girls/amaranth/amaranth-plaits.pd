@@ -300,8 +300,8 @@
 #X obj 273 177 t b f;
 #X text 334 386 multiply by middle c to get the frequency;
 #X obj 257 267 t b f, f 6;
-#X text 62 48 multiplying 440 (a4) by 2^(1/12) will give us the frequency of a#4 (466.16) \; and so multiplying any frequency by 2(x/n) will give you the transposition \; of that frequency by x semitones in n-tone equal temperament;
 #X text 301 343 ratio;
+#X text 62 48 multiplying 440 (a4) by 2^(1/12) will give us the frequency of a#4 (466.16) \; and so multiplying any frequency by 2^(x/n) will give you the transposition \; of that frequency by x semitones in n-tone equal temperament;
 #X connect 0 0 8 0 empty;
 #X connect 1 0 9 0 empty;
 #X connect 3 0 2 0 empty;
@@ -667,7 +667,6 @@
 #X text 5 389 12;
 #N canvas 0 50 450 300 shared-seq 1;
 #X text 59 259 for every step in the sequence \, the value:;
-#X text 59 279 is received into every sequence in the bottom row of numboxes there. which is then added to the offset of that sequence (times its multiplier) and that's how the melody is generated for each sequenc, f 58;
 #X text 309 259 t + x * x-mult + y * y-mult + z * z-mult;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X obj 35 60 cnv 28 27 29 empty empty 💖 -20 193 0 70 #ed3b4b #ed3b4b 0;
@@ -1447,6 +1446,7 @@
 #X connect 17 0 4 0 empty;
 #X connect 18 0 5 0 empty;
 #X restore 200 230 pd calc-node-15;
+#X text 59 279 is received into every sequence in the bottom row of numboxes there. which is then added to the offset of that sequence (times its multiplier) and that's how the melody is generated for each sequence, f 58;
 #X restore 300 520 pd shared-seq;
 #X obj 450 460 writesf~ 2;
 #X msg 480 380 start;
@@ -1503,7 +1503,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🌒 609 -204 0 100 #ffffff #ffffff #00ff33;
+#X obj 20 490 bng 25 250 50 0 empty empty 🧿 609 -204 0 100 #ffffff #ffffff #4000ff;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
