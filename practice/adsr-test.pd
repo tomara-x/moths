@@ -1,0 +1,14 @@
+#N canvas 827 239 527 327 12;
+#X obj 370 310 hv.adsr~;
+#X obj 390 230 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 440 230 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 490 230 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 540 230 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 370 380 oscope~ 481 130 98 3 128 -1 1 0 0 0 0 255 255 255 25 25 25 87 87 87 0 empty;
+#X obj 280 130 notein;
+#X connect 0 0 5 0 empty;
+#X connect 1 0 0 1 empty;
+#X connect 2 0 0 2 empty;
+#X connect 3 0 0 3 empty;
+#X connect 4 0 0 4 empty;
+#X connect 6 1 0 0 empty;
