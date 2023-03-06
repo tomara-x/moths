@@ -1,0 +1,8 @@
+#N canvas 827 239 527 327 12;
+#X obj 300 170 file delete;
+#X obj 300 210 print;
+#X msg 300 130 symbol very-important-file.txt;
+#X obj 300 90 loadbang;
+#X connect 0 0 1 0 empty;
+#X connect 2 0 0 0 empty;
+#X connect 3 0 2 0 empty;
