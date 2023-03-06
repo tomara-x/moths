@@ -1,0 +1,16 @@
+#N canvas 0 0 1366 689 12;
+#X obj 5 6 cnv 20 737 2 empty cnv empty 0 0 0 12 #d1ff00 #ffffff 0;
+#X obj 5 546 cnv 20 737 2 empty cnv empty 0 0 0 12 #d1ff00 #ffffff 0;
+#X obj 5 6 cnv 20 2 540 empty cnv empty 0 0 0 12 #d1ff00 #ffffff 0;
+#X obj 740 6 cnv 20 2 540 empty cnv empty 0 0 0 12 #d1ff00 #ffffff 0;
+#X obj 330 270 send cnv;
+#X obj 330 210 colors;
+#X msg 330 180 hsl \$1 100 50;
+#X msg 330 240 color \$1 #ffffff #ffffff;
+#X obj 330 106 lfo 0.1;
+#X obj 330 142 expr ($f1/127)*255;
+#X connect 5 0 7 0;
+#X connect 6 0 5 0;
+#X connect 7 0 4 0;
+#X connect 8 0 9 0;
+#X connect 9 0 6 0;
