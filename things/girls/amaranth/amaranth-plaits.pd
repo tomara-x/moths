@@ -284,7 +284,6 @@
 #X obj 566 491 clip~;
 #X obj 208 616 / 100;
 #X obj 253 616 +;
-#X obj 327 578 * 12, f 7;
 #X obj 397 591 nbx 4 18 1 100 0 1 empty empty n-tet 21 -6 0 14 #191919 #ffacab #ffffff 12 256;
 #X text 226 451 chromatic;
 #N canvas 0 50 450 300 semi2freq 0;
@@ -337,6 +336,7 @@
 #X restore 470 515 pd messages;
 #X obj 590 40 cnv 21 20 20 empty empty * 2 16 0 42 #191919 #ff0000 0;
 #X obj 460 452 bng 21 250 50 1 empty empty empty 17 7 0 10 #191919 #ff0000 #ffffff;
+#X obj 327 580 *;
 #X connect 0 0 81 1 empty;
 #X connect 1 0 82 1 empty;
 #X connect 2 0 83 1 empty;
@@ -534,8 +534,8 @@
 #X connect 165 2 159 0 32.................H....DF....B....gA...TD....;
 #X connect 166 0 165 1 48.................H....v9+++OB....r++++G++++O1++++w++++i8+++O9++++;
 #X connect 167 0 210 1 empty;
-#X connect 168 0 214 0 48.................G....nA...vA....Z....b9++++I....m++++eB...P6++++;
-#X connect 169 0 211 0 empty;
+#X connect 168 0 213 0 48.................G....nA...vA....Z....b9++++I....m++++eB...P6++++;
+#X connect 169 0 218 0 empty;
 #X connect 171 0 151 0 32.................D....D++++OA....w++++uC....;
 #X connect 172 0 97 0 80.................D....nF....A....pA...T9+++uZ....k++++qF....u++++pA...v6+++uZ....a9+++qG...vl++++5A....5+++O;
 #X connect 173 0 196 0 48.................D....D++++OA....w++++u9+++ew++++q++++W7+++u6++++;
@@ -589,12 +589,13 @@
 #X connect 208 0 145 0 empty;
 #X connect 209 0 210 0 48.................G....7A...vA....e....b9+++eK....m++++2B...P6++++;
 #X connect 210 0 168 0 48.................G....jA...vA....Y....b9++++I....m++++eB...P6++++;
-#X connect 211 0 168 1 32.................G....z9++++A....s++++KA....;
-#X connect 212 0 214 1 empty;
-#X connect 214 0 215 0 48.................F....fG...fA....3A...T9++++h....k++++uH...f5++++;
-#X connect 215 0 146 0 64.................I.....B...PB....f....j.....S....I....vD...PT++++fA...D0+++OX....W8+++C;
-#X connect 215 1 146 0 48.................E....XC...PA....1....vz+++uT....L8+++KE...vU++++;
-#X connect 216 0 215 0 empty;
+#X connect 211 0 213 1 empty;
+#X connect 211 0 218 1 48.................D....L9+++OA....i++++K9+++uw++++h++++a7+++O4++++;
+#X connect 213 0 214 0 48.................F....fG...fA....3A...T9++++h....k++++uH...f5++++;
+#X connect 214 0 146 0 64.................I.....B...PB....f....j.....S....I....vD...PT++++fA...D0+++OX....W8+++C;
+#X connect 214 1 146 0 48.................E....XC...PA....1....vz+++uT....L8+++KE...vU++++;
+#X connect 215 0 214 0 empty;
+#X connect 218 0 168 1 32.................E....j9+++eA....o++++CA....;
 #X restore 280 100 pd sequence-a;
 #X f 12;
 #X obj 280 180 clip~ -0.1 0.1;
@@ -1503,7 +1504,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🪞 609 -204 0 100 #ffffff #ffffff #ff4800;
+#X obj 20 490 bng 25 250 50 0 empty empty 🖤 609 -204 0 100 #ffffff #ffffff #00bfff;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
