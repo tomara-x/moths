@@ -28,7 +28,7 @@
 #X obj 190 378 xfade~;
 #X obj 30 332 tabread~ arr0;
 #X obj 130 332 tabread~ arr1;
-#X obj 30 152 pol2car~;
+#X obj 30 156 pol2car~;
 #X obj 181 124 *~ 6.28319;
 #X obj 330 498 oscope~ 130 130 8 3 256 -1 1 0 0 0 0 255 255 255 25 25 25 87 87 87 0 empty;
 #X obj 280 588 dac~;
@@ -45,13 +45,13 @@
 #X obj 300 50 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 0.8 256;
 #X obj 350 50 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a -1.5 256;
 #X obj 400 50 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 9.8 256;
-#X text 106 24 m1, f 4;
-#X text 160 19 m2, f 4;
-#X text 208 25 n1, f 5;
-#X text 256 24 n2, f 4;
-#X text 311 26 n3, f 4;
-#X text 363 25 a, f 4;
-#X text 413 25 b, f 4;
+#X text 110 19 m1, f 4;
+#X text 160 19 m2, f 5;
+#X text 210 19 n1, f 5;
+#X text 260 19 n2, f 4;
+#X text 310 19 n3, f 4;
+#X text 360 19 a, f 4;
+#X text 410 19 b, f 4;
 #X obj 190 508 clip~ -0.1 0.1;
 #X obj 30 292 expr~ (($v1+1)/2)*8195;
 #X obj 30 245 svfilter~;
@@ -70,8 +70,8 @@
 #X connect 3 0 2 0 32.................T.....J....E....fB...3A....;
 #X connect 4 0 2 1 32.................J....rD...fB....KA...3A....;
 #X connect 5 0 31 0 empty;
-#X connect 5 1 32 0 48.................E....LF...PA....iA...P....Pk....D....TI...vP....;
-#X connect 6 0 5 1 32.................D....L4+++OA....S9+++i.....;
+#X connect 5 1 32 0 48.................F....LF...fA....iA...X....Pk....F....TI...PQ....;
+#X connect 6 0 5 1 32.................E....L4+++eA....S9+++y.....;
 #X connect 9 0 10 1 empty;
 #X connect 10 0 8 0 empty;
 #X connect 10 0 8 1 32.................K....LA...vB....S....PA....;
@@ -88,7 +88,7 @@
 #X connect 21 0 14 7 32.................n....Xv+++OJ....F7+++aD....;
 #X connect 29 0 10 0 32.................M....jE...PC....YA...PA....;
 #X connect 30 0 3 0 empty;
-#X connect 30 0 4 0 32.................F....PF...fA....jA...PA....;
+#X connect 30 0 4 0 32.................I....PF...PB....jA...PA....;
 #X connect 31 0 30 0 empty;
 #X connect 31 0 13 0 48.................T....jJ....E....oB...PA....JA...T....fR...vj....;
 #X connect 32 0 2 2 empty;
@@ -100,7 +100,7 @@
 #X connect 37 0 33 0 empty;
 #X connect 38 0 35 0 empty;
 #X connect 39 0 29 0 empty;
-#X connect 39 0 7 0 32.................D.....J....A....fB...n.....;
+#X connect 39 0 7 0 32.................I....vH...PB....LB...DA....;
 #X connect 40 0 39 1 empty;
 #X connect 41 0 39 2 32.................E....b9+++eA....m++++q.....;
 #X connect 42 0 40 0 empty;
