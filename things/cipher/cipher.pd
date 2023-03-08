@@ -32,7 +32,7 @@
 #X obj 221 124 *~ 6.28319;
 #X obj 190 392 oscope~ 130 130 8 3 256 -1 1 0 0 0 0 255 255 255 25 25 25 87 87 87 0 empty;
 #X obj 120 482 dac~;
-#X obj 130 402 tgl 31 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 0.1;
+#X obj 130 402 tgl 31 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 0.05;
 #X obj 119 442 *~;
 #X obj 70 50 phasor~;
 #X obj 70 20 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 12 256;
