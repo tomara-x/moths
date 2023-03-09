@@ -1,0 +1,14 @@
+#N canvas 827 239 527 327 12;
+#N canvas 0 50 450 300 arr 1;
+#X obj 10 10 array define -k arr-0 10;
+#A 0 0 0 0.855556 0.855556 -0.455556 -0.530556 -0.883333 -0.155556 0 0;
+#X restore 440 200 pd arr;
+#X obj 150 140 value count;
+#X obj 150 90 bng 25 250 50 1 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff;
+#X obj 180 170 + 1;
+#X msg 150 210 \; pd-arr clear \; pd-arr obj 10 10 array define -k arr-\$1 10;
+#X text 270 149 it gets poofed every time it's triggered;
+#X connect 1 0 3 0 32.................E....3A...PA....d....n.....;
+#X connect 1 0 4 0 empty;
+#X connect 2 0 1 0 empty;
+#X connect 3 0 1 0 48.................I....7B...PB....u....f7++++3++++H++++O9++++y++++;
