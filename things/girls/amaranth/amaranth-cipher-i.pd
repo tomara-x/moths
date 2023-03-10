@@ -317,13 +317,13 @@
 #X obj 400 478 bng 21 250 50 1 empty empty empty 17 7 0 10 #191919 #ff0000 #ffffff;
 #X obj 327 580 *;
 #X obj 622 622 xfade~;
-#X obj 472 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a -8 256;
+#X obj 472 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 16 256;
 #X obj 522 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 64 256;
-#X obj 572 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a -105 256;
-#X obj 622 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a -13 256;
-#X obj 672 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a -0.3 256;
-#X obj 722 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a -1.46 256;
-#X obj 772 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 75 256;
+#X obj 572 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 32 256;
+#X obj 622 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 8 256;
+#X obj 672 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 0 256;
+#X obj 722 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 0.32 256;
+#X obj 772 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 0 256;
 #X obj 452 523 svfilter~;
 #X obj 563 523 svfilter~;
 #X obj 627 500 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
@@ -1696,7 +1696,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🌟 609 -204 0 100 #ffffff #ffffff #00ff99;
+#X obj 20 490 bng 25 250 50 0 empty empty 🦀 609 -204 0 100 #ffffff #ffffff #ff0800;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
