@@ -1,2 +1,10 @@
 #N canvas 827 239 527 327 12;
-#X msg 118 188 \; pd-mini-dynapatch.pd msg 10 10 hello;
+#X msg 98 418 \; pd-mini-dynapatch.pd msg 10 10 hello;
+#X msg 298 98 list le delete fi;
+#X msg 298 138 \; pd-mini-dynapatch.pd obj 10 10 \$3\$1 \$2;
+#X msg 36 240 addsemi;
+#X msg 118 238 add2 pd;
+#X msg 38 308 \; pd;
+#X connect 1 0 2 0 empty;
+#X connect 3 0 5 0 empty;
+#X connect 4 0 5 0 empty;
