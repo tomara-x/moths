@@ -1,0 +1,12 @@
+#N canvas 827 239 527 327 12;
+#X obj 118 178 file glob;
+#X msg 118 138 symbol *;
+#X obj 118 298 file delete;
+#X obj 118 258 symbol;
+#X obj 118 218 route list;
+#X obj 225 66 loadbang;
+#X text 294 63 for extra danger!;
+#X connect 0 0 4 0 empty;
+#X connect 1 0 0 0 empty;
+#X connect 3 0 2 0 empty;
+#X connect 4 0 3 0 empty;

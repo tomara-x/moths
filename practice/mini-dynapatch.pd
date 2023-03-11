@@ -1,0 +1,2 @@
+#N canvas 827 239 527 327 12;
+#X msg 118 188 \; pd-mini-dynapatch.pd msg 10 10 hello;
