@@ -510,7 +510,7 @@
 #X obj 571 504 nbx 4 14 0 21000 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 21000 256;
 #X obj 843 85 bng 51 250 50 0 empty empty empty 17 7 0 10 #191919 #ffffff #5a5a5a;
 #N canvas 0 50 450 250 (subpatch) 0;
-#X obj 163 317 function 200 100 empty empty 0 1 25 25 25 255 172 171 0 0 0 0 0 1000 0;
+#X obj 163 317 function 200 100 empty empty -1 1 25 25 25 255 172 171 0 0 0 0 0 1000 0;
 #X obj 163 247 loop;
 #X obj 163 287 /;
 #X obj 163 177 t b b;
@@ -1726,7 +1726,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🔪 609 -204 0 100 #ffffff #ffffff #00ff8c;
+#X obj 20 490 bng 25 250 50 0 empty empty 🔮 609 -204 0 100 #ffffff #ffffff #1aff00;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
