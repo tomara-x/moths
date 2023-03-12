@@ -315,7 +315,7 @@
 #X f 13;
 #X obj 590 40 cnv 21 20 20 empty empty * 2 16 0 42 #191919 #ff0000 0;
 #X obj 400 478 bng 21 250 50 1 empty empty empty 17 7 0 10 #191919 #ff0000 #ffffff;
-#X obj 327 580 *;
+#X obj 327 580 * 12;
 #X obj 607 622 xfade~;
 #X obj 472 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 16 256;
 #X obj 522 451 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #5a5a5a 64 256;
