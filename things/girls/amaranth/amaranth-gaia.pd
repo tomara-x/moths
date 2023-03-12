@@ -70,7 +70,7 @@
 #X obj 90 520 nbx 3 20 -128 128 0 1 x-mult empty mult-x 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
 #X obj 150 520 nbx 3 20 -128 128 0 1 y-mult empty mult-y 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
 #X obj 210 520 nbx 3 20 -128 128 0 1 z-mult empty mult-z 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
-#X obj 360 460 dac~;
+#X obj 380 460 dac~;
 #X text 560 519 drink some water!, f 16;
 #N canvas 0 50 450 300 sequence-a 0;
 #X obj 26 392 nbx 4 20 -1000 1000 0 1 empty m-0 empty 0 -8 0 10 #191919 #5bcefa #ffffff 0 256;
@@ -1674,8 +1674,8 @@
 #X obj 450 460 writesf~ 2;
 #X msg 510 410 start;
 #X msg 560 410 stop;
-#X obj 360 380 *~ 1;
-#X obj 420 380 *~ 1;
+#X obj 380 380 *~ 1;
+#X obj 450 380 *~ 1;
 #N canvas 0 50 450 300 links 0;
 #X obj 260 10 cnv 31 30 30 empty empty 🦋 -12 134 0 286 #ffacab #44abff 0;
 #X text 28 49 home page:;
@@ -1725,7 +1725,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🍀 609 -204 0 100 #ffffff #ffffff #ff9000;
+#X obj 20 490 bng 25 250 50 0 empty empty 🔪 609 -204 0 100 #ffffff #ffffff #00d5ff;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
