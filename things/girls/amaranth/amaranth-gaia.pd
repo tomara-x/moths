@@ -537,7 +537,7 @@
 #X obj 897 442 soundfiler;
 #X msg 897 382 read samp/samp1.wav arr-0;
 #X msg 917 412 read samp/samp2.wav arr-1;
-#X obj 452 452 phasor~;
+#X obj 386 616 phasor~;
 #X connect 0 0 81 1 empty;
 #X connect 1 0 82 1 empty;
 #X connect 2 0 83 1 empty;
@@ -792,8 +792,8 @@
 #X connect 210 0 168 0 48.................C....rA...v.....a....n9+++uJ....p++++qB...P6++++;
 #X connect 211 0 213 1 empty;
 #X connect 211 0 216 1 32.................D....n8+++OA....Z++++a.....;
-#X connect 213 0 246 0 48.................E....jF...PA....oA...Xz+++ed....F8+++mG...PR++++;
-#X connect 216 0 168 1 32.................K....D7++++B....A++++CA....;
+#X connect 213 0 246 0 48.................C....DE...v.....QA...j9++++W....o+++++E...P6++++;
+#X connect 216 0 168 1 32.................D....L8+++OA....S++++m.....;
 #X connect 217 0 146 0 48.................D....fB....A....n.....2++++L....v8+++OC...Pc++++;
 #X connect 218 0 233 1 32.................D....T7+++OA....E++++i.....;
 #X connect 219 0 233 2 32.................D....P9+++OA....j++++i.....;
@@ -823,7 +823,7 @@
 #X connect 242 0 240 1 32.................D....HG....A....xA...n.....;
 #X connect 244 0 243 0 empty;
 #X connect 245 0 243 0 empty;
-#X connect 246 0 233 0 empty;
+#X connect 246 0 233 0 48.................C....PC...v.....z....v0+++uP....b8+++KD...fX++++;
 #X restore 300 80 pd sequence-a;
 #X f 12;
 #X obj 300 230 clip~ -0.1 0.1;
@@ -1731,7 +1731,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 💧 609 -204 0 100 #ffffff #ffffff #04ff00;
+#X obj 20 490 bng 25 250 50 0 empty empty 🦝 609 -204 0 100 #ffffff #ffffff #00ff88;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
