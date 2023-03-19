@@ -293,7 +293,7 @@
 #X connect 11 1 4 1 empty;
 #X restore 295 526 pd semi2freq;
 #X f 13;
-#X obj 590 41 cnv 21 20 20 empty empty * 2 16 0 42 #191919 #ff0000 0;
+#X obj 590 41 cnv 21 20 20 empty empty * -2 16 0 42 #191919 #ff0000 0;
 #X obj 399 388 bng 21 250 50 1 empty empty empty 17 7 0 10 #191919 #ff0000 #ffffff;
 #X obj 311 497 * 12;
 #X obj 445 518 plaits~;
@@ -1717,7 +1717,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🚁 609 -204 0 100 #ffffff #ffffff #48ff00;
+#X obj 20 490 bng 25 250 50 0 empty empty 🆓 609 -204 0 100 #ffffff #ffffff #ff9d00;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
