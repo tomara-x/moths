@@ -72,7 +72,7 @@
 #X obj 210 520 nbx 3 20 -128 128 0 1 z-mult empty mult-z 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
 #X obj 380 460 dac~;
 #X text 560 519 drink some water!, f 16;
-#N canvas 0 50 1000 560 sequence-a 1;
+#N canvas 0 50 1000 560 sequence-a 0;
 #X obj 30 313 nbx 4 20 -1000 1000 0 1 empty m-0 empty 0 -8 0 10 #191919 #5bcefa #ffffff 0 256;
 #X obj 80 313 nbx 4 20 -1000 1000 0 1 empty m-1 empty 0 -8 0 10 #191919 #f5a9b8 #ffffff 0 256;
 #X obj 130 313 nbx 4 20 -1000 1000 0 1 empty m-2 empty 0 -8 0 10 #191919 #ed3b4b #ffffff 0 256;
@@ -816,7 +816,7 @@
 #X f 12;
 #X obj 510 320 giga.rev~;
 #X obj 516 50 vradio 15 1 1 10 empty empty empty 0 -8 0 10 #191919 #ffffff #000000 9;
-#N canvas 728 150 712 728 presets 1;
+#N canvas 728 150 712 728 presets 0;
 #X obj 93 11 inlet;
 #X text 529 385 bathroom;
 #X text 552 345 living room;
@@ -881,7 +881,7 @@
 #X text 10 149 4;
 #X text 10 269 8;
 #X text 5 389 12;
-#N canvas 0 50 560 490 shared-seq 1;
+#N canvas 0 50 560 490 shared-seq 0;
 #X text 59 259 for every step in the sequence \, the value:;
 #X text 309 259 t + x * x-mult + y * y-mult + z * z-mult;
 #N canvas 0 50 450 250 (subpatch) 0;
@@ -1668,7 +1668,7 @@
 #X msg 530 410 stop;
 #X obj 380 380 *~ 1;
 #X obj 450 380 *~ 1;
-#N canvas 0 50 561 300 links 1;
+#N canvas 0 50 561 300 links 0;
 #X obj 260 10 cnv 31 30 30 empty empty 🦋 -12 134 0 286 #ffacab #44abff 0;
 #X text 28 49 home page:;
 #X text 28 69 https://github.com/tomara-x/moths, f 30;
@@ -1678,7 +1678,7 @@
 #X text 28 118 vooommwawawawawaaavezzzz:;
 #X text 30 179 https://soundcloud.com/nope-null;
 #X restore 490 520 pd links;
-#N canvas 0 50 574 412 thanks 1;
+#N canvas 0 50 574 412 thanks 0;
 #X text 42 221 to magic girls and blood, f 22;
 #X text 31 254 to beings impossible to chain, f 26;
 #X text 85 187 to her, f 7;
