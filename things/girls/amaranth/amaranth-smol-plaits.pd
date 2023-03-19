@@ -1,4 +1,4 @@
-#N canvas 827 239 527 327 12;
+#N canvas 827 239 1000 560 12;
 #X obj 30 30 nbx 4 20 -36 36 0 1 t-0 empty empty 0 -8 0 10 #191919 #5bcefa #ffffff 0 256;
 #X obj 30 60 nbx 4 20 -36 36 0 1 t-1 empty empty 0 -8 0 10 #191919 #f5a9b8 #ffffff 0 256;
 #X obj 30 90 nbx 4 20 -36 36 0 1 t-2 empty empty 0 -8 0 10 #191919 #ed3b4b #ffffff 0 256;
@@ -72,7 +72,7 @@
 #X obj 210 520 nbx 3 20 -128 128 0 1 z-mult empty mult-z 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
 #X obj 380 460 dac~;
 #X text 560 519 drink some water!, f 16;
-#N canvas 0 50 450 300 sequence-a 1;
+#N canvas 0 50 1000 560 sequence-a 1;
 #X obj 30 313 nbx 4 20 -1000 1000 0 1 empty m-0 empty 0 -8 0 10 #191919 #5bcefa #ffffff 0 256;
 #X obj 80 313 nbx 4 20 -1000 1000 0 1 empty m-1 empty 0 -8 0 10 #191919 #f5a9b8 #ffffff 0 256;
 #X obj 130 313 nbx 4 20 -1000 1000 0 1 empty m-2 empty 0 -8 0 10 #191919 #ed3b4b #ffffff 0 256;
@@ -266,7 +266,7 @@
 #X obj 212 496 / 100;
 #X obj 212 526 +;
 #X obj 361 473 nbx 3 18 1 100 0 1 empty empty n-tet 22 -6 0 14 #191919 #ffacab #ffffff 12 256;
-#N canvas 0 50 450 300 semi2freq 0;
+#N canvas 0 50 598 481 semi2freq 0;
 #X obj 219 134 inlet;
 #X obj 273 134 inlet;
 #X obj 257 423 outlet;
@@ -300,7 +300,7 @@
 #N canvas 0 50 450 250 (subpatch) 0;
 #X obj 199 69 nbx 4 18 0 15 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 199 89 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.52 256;
-#X obj 199 109 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.49 256;
+#X obj 199 109 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.48 256;
 #X obj 199 129 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.57 256;
 #X msg 209 239 harmonics \$1;
 #X msg 229 269 timbre \$1;
@@ -329,7 +329,7 @@
 #X msg 859 21 0 3 5 6 7 10;
 #X msg 859 51 0 2 3 4 5 6 7 9 10;
 #X text 246 364 chrm;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 353 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -344,7 +344,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 19 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 356 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -359,7 +359,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 69 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 345 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -374,7 +374,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 119 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 349 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -389,7 +389,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 169 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 352 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -404,7 +404,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 219 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 349 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -419,7 +419,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 269 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 350 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -434,7 +434,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 319 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 358 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -449,7 +449,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 369 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 350 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -464,7 +464,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 419 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 351 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -479,7 +479,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 469 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 349 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -494,7 +494,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 519 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 349 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -509,7 +509,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 569 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 346 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -524,7 +524,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 619 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 343 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -539,7 +539,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 669 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 347 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -554,7 +554,7 @@
 #X connect 3 0 5 0 empty;
 #X connect 4 0 3 0 empty;
 #X restore 719 289 pd *;
-#N canvas 0 50 450 300 * 0;
+#N canvas 0 50 450 348 * 0;
 #X obj 79 89 inlet;
 #X obj 220 89 inlet;
 #X obj 79 139 routetype bang float;
@@ -881,7 +881,7 @@
 #X text 10 149 4;
 #X text 10 269 8;
 #X text 5 389 12;
-#N canvas 0 50 450 300 shared-seq 1;
+#N canvas 0 50 560 490 shared-seq 1;
 #X text 59 259 for every step in the sequence \, the value:;
 #X text 309 259 t + x * x-mult + y * y-mult + z * z-mult;
 #N canvas 0 50 450 250 (subpatch) 0;
@@ -1668,7 +1668,7 @@
 #X msg 530 410 stop;
 #X obj 380 380 *~ 1;
 #X obj 450 380 *~ 1;
-#N canvas 0 50 450 300 links 1;
+#N canvas 0 50 561 300 links 1;
 #X obj 260 10 cnv 31 30 30 empty empty 🦋 -12 134 0 286 #ffacab #44abff 0;
 #X text 28 49 home page:;
 #X text 28 69 https://github.com/tomara-x/moths, f 30;
@@ -1678,7 +1678,7 @@
 #X text 28 118 vooommwawawawawaaavezzzz:;
 #X text 30 179 https://soundcloud.com/nope-null;
 #X restore 490 520 pd links;
-#N canvas 0 50 450 300 thanks 1;
+#N canvas 0 50 574 412 thanks 1;
 #X text 42 221 to magic girls and blood, f 22;
 #X text 31 254 to beings impossible to chain, f 26;
 #X text 85 187 to her, f 7;
@@ -1717,7 +1717,7 @@
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 20 130 metro 0 0.0625 sec;
 #X obj 20 180 rand.i 1 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🐐 609 -204 0 100 #ffffff #ffffff #44ff00;
+#X obj 20 490 bng 25 250 50 0 empty empty 🚁 609 -204 0 100 #ffffff #ffffff #48ff00;
 #X connect 0 0 3 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 4 0 empty;
