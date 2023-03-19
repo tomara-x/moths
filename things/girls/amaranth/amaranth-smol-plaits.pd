@@ -573,7 +573,7 @@
 #X msg 79 169 decay \$1;
 #X obj 120 95 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.88 256;
 #X msg 19 129 trigger \$1;
-#X obj 120 69 tgl 25 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
+#X obj 120 69 tgl 25 1 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
 #X obj 99 19 inlet;
 #X obj 159 19 inlet;
 #X obj 19 229 outlet;
