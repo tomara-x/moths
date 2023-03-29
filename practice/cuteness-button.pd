@@ -1,0 +1,13 @@
+#N canvas 827 239 527 327 12;
+#X obj 26 211 note 0 110 JetBrains\ Mono empty 0 255 255 255 0 25 25 25 1 0 :^ _ ^:;
+#X obj 26 39 keyname;
+#X obj 26 69 tgl 25 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
+#X obj 26 119 select 1;
+#X msg 109 159 set :> _ <:;
+#X msg 26 159 set :^ _ ^:;
+#X connect 1 0 2 0 empty;
+#X connect 2 0 3 0 empty;
+#X connect 3 0 5 0 empty;
+#X connect 3 1 4 0 empty;
+#X connect 4 0 0 0 empty;
+#X connect 5 0 0 0 empty;
