@@ -2,7 +2,7 @@
 #X obj 19 369 dac~;
 #X obj 5 109 plaits~;
 #N canvas 0 50 450 250 (subpatch) 1;
-#X obj 199 69 nbx 4 18 0 15 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 7 256;
+#X obj 199 69 nbx 4 18 0 15 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 199 89 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.83 256;
 #X obj 199 109 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.6 256;
 #X obj 199 129 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.85 256;
