@@ -67,9 +67,9 @@
 #X text 90 9 x, f 2;
 #X text 150 9 y, f 2;
 #X text 210 9 z, f 2;
-#X obj 90 520 nbx 3 20 -128 128 0 1 x-mult empty mult-x 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
-#X obj 150 520 nbx 3 20 -128 128 0 1 y-mult empty mult-y 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
-#X obj 210 520 nbx 3 20 -128 128 0 1 z-mult empty mult-z 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
+#X obj 90 520 nbx 3 20 -128 128 0 1 x-mult empty empty 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
+#X obj 150 520 nbx 3 20 -128 128 0 1 y-mult empty empty 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
+#X obj 210 520 nbx 3 20 -128 128 0 1 z-mult empty empty 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
 #X obj 380 427 dac~;
 #X text 560 519 drink some water!, f 16;
 #N canvas 0 50 1000 560 sequence-a 1;
@@ -1714,7 +1714,7 @@
 #X msg 20 310 color #ffffff #ffffff \$1;
 #X msg 20 250 hsl \$1 100 50;
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🧿 609 -204 0 100 #ffffff #ffffff #ffcc00;
+#X obj 20 490 bng 25 250 50 0 empty empty 🚁 609 -204 0 100 #ffffff #ffffff #11ff00;
 #X obj 20 180 rand.i 0 360;
 #X obj 20 130 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -1808,6 +1808,7 @@
 #X msg 662 305 late \$1;
 #X obj 479 280 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.3 256;
 #X msg 501 393 open amaranth-23.wav \, start;
+#X text 47 521 mult;
 #X connect 73 0 87 0 empty;
 #X connect 74 0 82 0 32.................H....H6+++OB....x9+++OA....;
 #X connect 74 1 83 0 32.................N....T6+++uC....09+++OA....;
