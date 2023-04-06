@@ -1,11 +1,11 @@
 #N canvas 827 239 527 327 12;
-#X obj 19 369 dac~;
+#X obj 9 379 dac~;
 #X obj 5 109 plaits~;
 #N canvas 0 50 450 250 (subpatch) 1;
 #X obj 199 69 nbx 4 18 0 15 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 199 89 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.83 256;
-#X obj 199 109 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.6 256;
-#X obj 199 129 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.85 256;
+#X obj 199 89 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.9 256;
+#X obj 199 109 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.19 256;
+#X obj 199 129 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.93 256;
 #X msg 209 239 harmonics \$1;
 #X msg 229 269 timbre \$1;
 #X msg 249 299 morph \$1;
@@ -31,7 +31,7 @@
 #X restore 6 10 graph;
 #N canvas 0 50 450 250 (subpatch) 1;
 #X msg 79 169 decay \$1;
-#X obj 120 95 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.26 256;
+#X obj 120 95 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.36 256;
 #X msg 19 129 trigger \$1;
 #X obj 120 69 tgl 25 1 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 1 1;
 #X obj 99 19 inlet;
@@ -46,7 +46,7 @@
 #X coords 0 1 100 -1 49 48 1 119 67;
 #X restore 59 19 graph;
 #X obj 119 29 bng 25 250 50 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff;
-#X obj 89 69 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 436 256;
+#X obj 89 69 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 354 256;
 #X obj 279 99 pitch.shift~;
 #X obj 306 39 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff -15 256;
 #X obj 359 39 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 3.1 256;
@@ -68,12 +68,12 @@
 #X obj 156 66 * 100;
 #X obj 209 66 * 1000;
 #X obj 279 219 pitch.shift~;
-#X obj 306 159 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 5 256;
+#X obj 306 159 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff -7 256;
 #X obj 359 159 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 306 186 * 100;
 #X obj 359 186 * 1000;
 #X obj 435 219 pitch.shift~;
-#X obj 462 159 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff -2 256;
+#X obj 462 159 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 1 256;
 #X obj 515 159 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.03 256;
 #X obj 462 186 * 100;
 #X obj 515 186 * 1000;
@@ -88,7 +88,7 @@
 #X obj 156 186 * 100;
 #X obj 209 186 * 1000;
 #X obj 279 339 pitch.shift~;
-#X obj 306 279 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 5 256;
+#X obj 306 279 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 35 256;
 #X obj 359 279 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.4 256;
 #X obj 306 306 * 100;
 #X obj 359 306 * 1000;
@@ -98,8 +98,8 @@
 #X obj 462 306 * 100;
 #X obj 515 306 * 1000;
 #X obj 579 339 pitch.shift~;
-#X obj 606 279 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff -3 256;
-#X obj 659 279 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 3.4 256;
+#X obj 606 279 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff -66 256;
+#X obj 659 279 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 5 256;
 #X obj 606 306 * 100;
 #X obj 659 306 * 1000;
 #X obj 129 339 pitch.shift~;
@@ -127,7 +127,7 @@
 #X obj 209 399 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 2.4 256;
 #X obj 156 426 * 100;
 #X obj 209 426 * 1000;
-#X obj 19 269 catch~ out;
+#X obj 9 209 catch~ out;
 #X obj 129 129 throw~ out;
 #X obj 279 129 throw~ out;
 #X obj 435 129 throw~ out;
@@ -144,7 +144,10 @@
 #X obj 279 489 throw~ out;
 #X obj 435 489 throw~ out;
 #X obj 579 489 throw~ out;
-#X obj 19 319 /~ 16;
+#X obj 9 259 /~ 16;
+#X msg 79 339 stop;
+#X msg 59 276 open dand.wav \, start, f 10;
+#X obj 59 379 writesf~;
 #X connect 1 0 21 0 empty;
 #X connect 2 0 1 0 empty;
 #X connect 3 0 1 0 32.................f....77+++OH....O++++qB....;
@@ -248,3 +251,6 @@
 #X connect 86 0 103 0 empty;
 #X connect 103 0 0 0 empty;
 #X connect 103 0 0 1 empty;
+#X connect 103 0 106 0 empty;
+#X connect 104 0 106 0 empty;
+#X connect 105 0 106 0 empty;
