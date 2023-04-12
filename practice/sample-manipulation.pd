@@ -1,0 +1,11 @@
+#N canvas 827 239 527 327 12;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array arr1 64 float 0;
+#X coords 0 1 63 -1 200 140 1;
+#X restore 528 276 graph;
+#X obj 209 279 tabsend~ arr1;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array arr2 64 float 0;
+#X coords 0 1 63 -1 200 140 1;
+#X restore 529 99 graph;
+#X obj 209 169 tabreceive~ arr2;
