@@ -1,0 +1,12 @@
+#N canvas 827 239 391 226 12;
+#X obj 19 89 knob 112 0 127 0 0 empty empty #191919 #6cff00 99 0 83 0 1 333 0;
+#X obj 17 9 keyname;
+#X symbolatom 59 39 11 0 0 0 - - - 16;
+#X obj 17 39 tgl 25 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
+#X obj 149 9 mouse;
+#X obj 149 39 tgl 25 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
+#X obj 139 89 knob 112 0 127 0 0 empty empty #191919 #d100ff 56 0 12 0 0 333 0;
+#X obj 257 89 knob 112 0 127 0 0 empty empty #191919 #ff009a 37 0 0 0 1 333 0;
+#X connect 1 0 3 0 empty;
+#X connect 1 1 2 0 empty;
+#X connect 4 0 5 0 empty;
