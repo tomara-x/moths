@@ -1,0 +1,12 @@
+#N canvas 827 239 527 327 12;
+#X obj 72 99 vsl 67 182 0 127 0 1 empty empty empty 0 -9 0 10 #191919 #ff00eb #ffffff 18100 1;
+#X obj 151 99 vsl 67 182 0 127 0 1 empty empty empty 0 -9 0 10 #191919 #00ff44 #ffffff 18100 1;
+#X obj 230 99 vsl 67 182 0 127 0 1 empty empty empty 0 -9 0 10 #191919 #00b1ff #ffffff 0 1;
+#X obj 309 99 vsl 67 182 0 127 0 1 empty empty empty 0 -9 0 10 #191919 #ff4700 #ffffff 18100 1;
+#X obj 388 99 vsl 67 182 0 127 0 1 empty empty empty 0 -9 0 10 #191919 #a600ff #ffffff 18100 1;
+#X obj 314 47 tgl 25 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
+#X obj 116 17 keyname;
+#X symbolatom 158 47 11 0 0 0 - - - 16;
+#X obj 116 47 tgl 25 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
+#X connect 6 0 8 0 empty;
+#X connect 6 1 7 0 empty;
