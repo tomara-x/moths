@@ -1,0 +1,11 @@
+#N canvas 827 239 500 500 12;
+#X obj 279 254 tgl 25 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
+#X obj 279 359 f;
+#X msg 279 399 \; pd-dyna-test-0.pd obj \$1 100 bng, f 23;
+#X obj 279 289 metro 250;
+#X obj 290 330 + 60;
+#X connect 0 0 3 0 empty;
+#X connect 1 0 2 0 empty;
+#X connect 1 0 4 0 48.................G....fB...vA....n....b7++++B....G++++u.....z++++;
+#X connect 3 0 1 0 empty;
+#X connect 4 0 1 1 empty;
