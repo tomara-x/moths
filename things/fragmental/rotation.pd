@@ -1,4 +1,4 @@
-#N canvas 827 239 527 327 12;
+#N canvas 827 239 717 468 12;
 #X obj 220 235 superformula~;
 #X obj 220 296 pol2car~;
 #X obj 382 235 *~ 6.2831;
