@@ -28,7 +28,6 @@
 #X obj 453 282 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.42 256;
 #X obj 351 245 hsl 49 27 0 21000 0 0 empty empty empty -2 -8 0 10 #191919 #ffffff #ffffff 0 1;
 #X obj 469 19 nbx 4 18 0 8 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.01 256;
-#X obj 723 192;
 #X obj 469 49 nbx 4 18 0 8 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.3 256;
 #X obj 469 79 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.5 256;
 #X obj 469 109 nbx 4 18 0 8 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.5 256;
@@ -64,6 +63,6 @@
 #X connect 26 0 24 2 32.................P.....6+++OD....v9++++A....;
 #X connect 27 0 25 0 empty;
 #X connect 28 0 21 8 32.................F.....8+++uA....P++++OG....;
-#X connect 30 0 21 9 32.................F....H9+++uA....h++++WE....;
-#X connect 31 0 21 10 32.................F....L++++uA....y++++eC....;
-#X connect 32 0 21 11 32.................M....D++++eC....w++++mA....;
+#X connect 29 0 21 9 32.................F....H9+++uA....h++++WE....;
+#X connect 30 0 21 10 32.................F....L++++uA....y++++eC....;
+#X connect 31 0 21 11 32.................M....D++++eC....w++++mA....;
