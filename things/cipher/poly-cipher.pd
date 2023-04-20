@@ -88,6 +88,7 @@
 #X text 521 110 R;
 #X obj 287 211 nbx 6 18 0 21000 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 21000 256;
 #X obj 440 211 nbx 6 18 0 21000 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 21000 256;
+#X text 29 528 tomara <3;
 #X connect 0 0 11 0 empty;
 #X connect 4 0 2 0 empty;
 #X connect 4 0 2 1 32.................F....HA...fA....R....7.....;
