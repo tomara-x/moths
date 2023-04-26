@@ -1,5 +1,5 @@
 #N canvas 827 239 527 327 12;
 #X obj 229 69 knob 91 0 127 0 0 empty empty #191919 #008eff 0 0 5 0 1 90 45;
 #X obj 179 119 knob 91 0 127 0 0 empty empty #191919 #ffffff 0 0 3 0 1 90 225;
-#X obj 229 119 knob 91 0 127 0 0 empty empty #191919 #ff005f 0 0 8 0 1 90 135;
-#X obj 179 69 knob 91 0 127 0 0 empty empty #191919 #fff800 0 0 6 0 1 90 315;
+#X obj 229 119 knob 91 0 127 0 0 empty empty #191919 #ff005f 0 0 8 0 1 265 135;
+#X obj 179 69 knob 91 0 127 0 0 empty empty #191919 #fff800 0 0 6 0 1 340 0;
