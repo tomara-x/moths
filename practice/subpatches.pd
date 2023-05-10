@@ -1,0 +1,9 @@
+#N canvas 827 239 527 327 12;
+#N canvas 0 50 450 300 hi 1;
+#N canvas 0 50 450 300 hello 1;
+#N canvas 0 50 450 300 hiiiiiiiiiiiiiiiiiiiiii 1;
+#N canvas 0 50 450 300 do 0;
+#X restore 139 129 pd do crimes;
+#X restore 169 129 pd hiiiiiiiiiiiiiiiiiiiiii;
+#X restore 167 123 pd hello;
+#X restore 179 139 pd hi;
