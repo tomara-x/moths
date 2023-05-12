@@ -1,0 +1,8 @@
+#N canvas 827 239 527 327 12;
+#X obj 199 199 print;
+#X obj 199 129 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 119 89 loadbang;
+#X obj 199 89 param awoo;
+#X connect 1 0 0 0 empty;
+#X connect 2 0 1 0 empty;
+#X connect 3 0 1 0 empty;
