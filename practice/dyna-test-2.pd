@@ -1,0 +1,12 @@
+#N canvas 336 285 450 300 12;
+#N canvas 806 297 450 300 hi 1;
+#X obj 53 95 s pd-hi;
+#X msg 45 40 vis 0;
+#X obj 204 85 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X connect 1 0 0 0;
+#X restore 149 94 pd hi;
+#X obj 53 95 s pd-hi;
+#X msg 15 25 vis 1;
+#X msg 73 17 graph hi;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
