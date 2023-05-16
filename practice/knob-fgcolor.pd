@@ -1,0 +1,11 @@
+#N canvas 827 239 527 327 12;
+#X obj 179 39 knob 131 0 1 0 0 empty empty #191919 #626262 #6700ff 1 0 0 0 1 270 0 0;
+#X msg 179 209 hsl \$1 100 50;
+#X msg 179 269 fgcolor \$1;
+#X obj 179 179 * 360;
+#X obj 179 239 colors;
+#X connect 0 0 3 0 empty;
+#X connect 1 0 4 0 empty;
+#X connect 2 0 0 0 48.................G....j9++++A....o++++2u+++O.....86+++C....vA++++;
+#X connect 3 0 1 0 empty;
+#X connect 4 0 2 0 empty;
