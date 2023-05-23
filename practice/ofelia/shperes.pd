@@ -1,0 +1,16 @@
+#N canvas 720 100 665 514 10;
+#X declare -path ofelia/abs;
+#X obj 9 69 ofWindow;
+#X obj 419 29 ofSetup;
+#X obj 9 229 ofDraw;
+#X obj 489 9 declare -path ofelia/abs;
+#X msg 419 59 bang;
+#X msg 9 39 setPosition 800 100 \, setSize 1000 700 \, create;
+#X obj 419 89 ofelia f \; ofBackground(0) \; ofNoFill() \; centerX = ofGetWidth() / 2 \; centerY = ofGetHeight() / 2 \; size = 200 \; angle = 0 \;;
+#X f 37;
+#X obj 9 259 ofelia f \; ofTranslate(centerX \, centerY) \; for i = 1 \, 4 do \; ofPushMatrix() \; ofSetLineWidth(i / 4) \; c = ofColor.fromHsb((angle * 80 + i * 40) % 255 \, 255 \, 255) \; ofSetColor(c) \; ofRotateXDeg(angle * 9 + i) \; ofRotateYDeg(angle * 2) \; ofRotateZDeg(angle * 200) \; ofDrawIcoSphere(0 \, 0 \, 0 \, size + math.sin(i + 200) * i * 20 * math.cos(angle + 200 * i)) \; ofPopMatrix() \; end \; angle = angle + 0.01;
+#X f 105;
+#X connect 1 0 4 0 empty;
+#X connect 2 0 7 0 empty;
+#X connect 4 0 6 0 empty;
+#X connect 5 0 0 0 empty;
