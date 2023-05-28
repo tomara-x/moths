@@ -1,0 +1,7 @@
+#N canvas 0 50 450 250 (subpatch) 1;
+#X obj -1 -1 pad 81 83 25 25 25;
+#X obj -1 -41 inlet;
+#X obj -1 109 outlet;
+#X connect 0 0 2 0 empty;
+#X connect 1 0 0 0 empty;
+#X coords 0 1 100 -1 81 81 1 0 0;
