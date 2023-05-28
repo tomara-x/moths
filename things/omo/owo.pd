@@ -1,5 +1,6 @@
 #N canvas 827 239 600 500 12;
 #N canvas 0 50 450 250 (subpatch) 1;
+#X obj 29 437 button 47 47 25 25 25 255 255 255 0;
 #X obj -41 -31 cnv 15 641 531 empty empty empty 20 12 0 14 #d1d1d1 #ffffff 0;
 #X obj 604 -1 bng 25 250 50 0 empty empty ⬢ -611 37 0 87 #191919 #ffffff #191919;
 #X obj 656 -1 bng 25 250 50 0 empty empty ⬢ -611 37 0 87 #191919 #ffffff #191919;
@@ -211,7 +212,6 @@
 #X obj 418 388 button 47 47 25 25 25 255 255 255 0;
 #X obj 471 388 button 47 47 25 25 25 255 255 255 0;
 #X obj 523 388 button 47 47 25 25 25 255 255 255 0;
-#X obj 29 437 button 47 47 25 25 25 255 255 255 0;
 #X obj 81 437 button 47 47 25 25 25 255 255 255 0;
 #X obj 133 437 button 47 47 25 25 25 255 255 255 0;
 #X obj 185 437 button 47 47 25 25 25 255 255 255 0;
@@ -222,5 +222,19 @@
 #X obj 444 437 button 47 47 25 25 25 255 255 255 0;
 #X obj 497 437 button 47 47 25 25 25 255 255 255 0;
 #X obj 549 437 button 47 47 25 25 25 255 255 255 0;
+#N canvas 0 50 450 300 click 1;
+#X obj 29 129 select 0 1;
+#X msg 29 169 color #191919 #ffffff #191919;
+#X msg 229 169 color #191919 #ffffff #ff003f;
+#X obj 29 29 inlet;
+#X obj 29 249 outlet;
+#X connect 0 0 1 0 empty;
+#X connect 0 1 2 0 empty;
+#X connect 1 0 4 0 empty;
+#X connect 2 0 4 0 empty;
+#X connect 3 0 0 0 empty;
+#X restore 29 539 pd click;
+#X connect 0 0 222 0 empty;
+#X connect 222 0 101 0 empty;
 #X coords 0 1 100 -1 601 501 1 0 0;
 #X restore -1 -1 graph;
