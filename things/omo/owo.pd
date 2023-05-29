@@ -216,7 +216,7 @@
 #X obj 854 443 bng 25 250 50 0 empty empty ⬣ -611 37 0 87 #191919 #ffffff #191919;
 #X obj 760 443 bng 25 250 50 0 empty empty ⬣ -611 37 0 87 #191919 #ffffff #191919;
 #X obj 948 443 bng 25 250 50 0 empty empty ⬣ -611 37 0 87 #191919 #ffffff #191919;
-#X obj 1129 439 bng 25 250 50 0 empty empty ⬣ -611 37 0 87 #191919 #ffffff #191919;
+#X obj 1137 443 bng 25 250 50 0 empty empty ⬣ -611 37 0 87 #191919 #ffffff #191919;
 #X obj 1042 443 bng 25 250 50 0 empty empty ⬣ -611 37 0 87 #191919 #ffffff #191919;
 #N canvas 0 50 450 250 (subpatch) 1;
 #X obj -191 -131 pitch2note;
