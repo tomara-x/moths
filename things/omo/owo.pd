@@ -7625,6 +7625,8 @@
 #X connect 8 0 2 0 empty;
 #X connect 9 0 8 1 empty;
 #X restore -1 519 pd out;
+#X obj -1 575 s owo-note;
+#X obj 25 549 s owo-vel;
 #X connect 0 0 11 0 empty;
 #X connect 2 0 1 0 empty;
 #X connect 3 0 6 0 empty;
@@ -7632,3 +7634,5 @@
 #X connect 5 0 6 0 empty;
 #X connect 8 0 7 0 empty;
 #X connect 9 0 7 0 empty;
+#X connect 11 0 12 0 empty;
+#X connect 11 1 13 0 empty;
