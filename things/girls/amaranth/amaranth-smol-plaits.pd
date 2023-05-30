@@ -154,7 +154,7 @@
 #X obj 669 338 +;
 #X obj 719 338 +;
 #X obj 769 338 +;
-#X obj 621 11 function 200 100 empty empty 0 1 25 25 25 255 255 255 1 0 0 0 0.595745 32.7688 0.585106 0 0 38.6598 0;
+#X obj 621 11 function 200 100 empty empty 0 1 25 25 25 255 255 255 1 0 0 0 0.595745 32.7688 0.585106 38.6598 0.578947;
 #X obj 439 11 inlet;
 #X obj 479 11 inlet;
 #X obj 769 523 outlet;
@@ -320,7 +320,7 @@
 #X msg 79 169 decay \$1;
 #X obj 120 95 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.51 256;
 #X msg 19 129 trigger \$1;
-#X obj 120 69 tgl 25 1 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
+#X obj 120 69 tgl 25 1 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 1 1;
 #X obj 99 19 inlet;
 #X obj 159 19 inlet;
 #X obj 19 229 outlet;
@@ -374,7 +374,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -389,7 +389,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -404,7 +404,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -419,7 +419,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -434,7 +434,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -449,7 +449,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -464,7 +464,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -479,7 +479,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -494,7 +494,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -509,7 +509,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -524,7 +524,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -539,7 +539,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -554,7 +554,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -569,7 +569,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -584,7 +584,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -599,7 +599,7 @@
 #N canvas 0 50 450 348 * 0;
 #X obj 79 49 inlet;
 #X obj 210 49 inlet;
-#X obj 79 89 routetype bang float;
+#X obj 79 89 route bang float;
 #X obj 199 179 *;
 #X obj 79 149 f;
 #X obj 199 229 outlet;
@@ -1715,7 +1715,7 @@
 #X msg 20 310 color #ffffff #ffffff \$1;
 #X msg 20 250 hsl \$1 100 50;
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🐶 609 -204 0 100 #ffffff #ffffff #008cff;
+#X obj 20 490 bng 25 250 50 0 empty empty 👻 609 -204 0 100 #ffffff #ffffff #ff00fb;
 #X obj 20 180 rand.i 0 360;
 #X obj 20 130 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
