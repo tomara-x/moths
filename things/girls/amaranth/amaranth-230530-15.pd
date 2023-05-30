@@ -846,6 +846,7 @@
 #X connect 184 0 185 1 empty;
 #X connect 184 0 187 1 32.................D....n8+++OA....Z++++a.....;
 #X connect 185 0 188 0 48.................C....3E...v.....dA...j9+++ec....o++++WG...f6++++;
+#X connect 186 0 194 0 empty;
 #X connect 187 0 150 1 32.................D....L8+++OA....S++++m.....;
 #X connect 188 0 130 0 48.................I....7C...PB....+....j9+++eX....o++++GF...P6++++;
 #X connect 188 1 130 0 48.................E....nB...PA....p....j9+++uT....o++++KE...P6++++;
@@ -1703,7 +1704,7 @@
 #X text 464 114 d, f 4;
 #X text 498 161 e, f 4;
 #X text 36 314 and giants who kindly let me stand on their shoulders, f 44;
-#N canvas 0 50 450 250 (subpatch) 1;
+#N canvas 0 50 450 250 (subpatch) 0;
 #X obj 164 396 pick;
 #X obj 164 234 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 164 269 t b f;
@@ -1715,7 +1716,7 @@
 #X msg 20 310 color #ffffff #ffffff \$1;
 #X msg 20 250 hsl \$1 100 50;
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🎷 609 -204 0 100 #ffffff #ffffff #ff00ae;
+#X obj 20 490 bng 25 250 50 0 empty empty ☢️ 609 -204 0 100 #ffffff #ffffff #00ff19;
 #X obj 20 180 rand.i 0 360;
 #X obj 20 130 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -2582,6 +2583,7 @@
 #X connect 184 0 185 1 empty;
 #X connect 184 0 187 1 32.................D....n8+++OA....Z++++a.....;
 #X connect 185 0 188 0 48.................C....3E...v.....dA...j9+++ec....o++++WG...f6++++;
+#X connect 186 0 194 0 empty;
 #X connect 187 0 150 1 32.................D....L8+++OA....S++++m.....;
 #X connect 188 0 130 0 48.................I....7C...PB....+....j9+++eX....o++++GF...P6++++;
 #X connect 188 1 130 0 48.................E....nB...PA....p....j9+++uT....o++++KE...P6++++;
