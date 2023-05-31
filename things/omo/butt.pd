@@ -23,10 +23,10 @@
 #X obj 9 479 outlet;
 #X obj 79 419 change;
 #X obj 479 39 route click;
-#X obj 469 219 \$1;
+#X obj 559 339 \$1;
 #N canvas 0 50 450 300 voice-\$0 1;
 #X restore 479 499 pd voice-\$0;
-#X obj 529 159 t b b b;
+#X obj 499 219 t b b b;
 #X obj 479 109 select 0 1;
 #N canvas 0 50 450 300 set-color 1;
 #X obj 19 19 inlet;
@@ -46,6 +46,11 @@
 #X connect 7 0 2 0 empty;
 #X connect 7 1 5 0 empty;
 #X restore 79 449 pd set-color;
+#X msg 269 459 clear;
+#X obj 589 69 button 25 25 25 25 25 255 255 255 0;
+#X obj 269 499 s pd-voice-\$0;
+#X msg 319 459 obj 10 10 throw~;
+#X obj 589 169 bng 25 250 50 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff;
 #X connect 0 0 23 0 empty;
 #X connect 2 0 22 0 empty;
 #X connect 3 0 2 0 empty;
@@ -72,4 +77,9 @@
 #X connect 23 0 4 0 empty;
 #X connect 23 0 2 0 empty;
 #X connect 23 0 27 0 empty;
+#X connect 27 0 29 0 empty;
 #X connect 28 0 1 0 empty;
+#X connect 29 0 31 0 empty;
+#X connect 30 0 27 0 empty;
+#X connect 32 0 31 0 empty;
+#X connect 33 0 26 0 empty;
