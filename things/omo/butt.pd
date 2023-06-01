@@ -24,9 +24,6 @@
 #X obj 479 37 route click;
 #X obj 399 409 \$1;
 #N canvas 0 50 450 300 voice-\$0 1;
-#X obj 500 10 r x-\$0;
-#X obj 500 50 r y-\$0;
-#X obj 500 90 0;
 #X restore 479 499 pd voice-\$0;
 #X obj 479 109 select 0 1;
 #N canvas 0 50 450 300 set-color 1;
@@ -54,6 +51,9 @@
 #X msg 379 379 obj 500 50 r y-\\\$0;
 #X msg 399 439 obj 500 90 \$1;
 #X obj 609 189 bng 25 250 50 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff;
+#X obj 599 459 catch~ owo;
+#X msg 329 289 obj 10 200 throw~ owo \, obj 10 100 osc~ 440 \, connect 1 0 0 0;
+#X obj 595 505 dac~;
 #X connect 0 0 22 0 empty;
 #X connect 2 0 21 0 empty;
 #X connect 3 0 2 0 empty;
@@ -82,9 +82,13 @@
 #X connect 22 0 4 0 32.................J....Ti+++uB....03+++GA....;
 #X connect 23 0 32 0 empty;
 #X connect 25 0 27 0 empty;
+#X connect 25 1 35 0 empty;
 #X connect 26 0 1 0 empty;
 #X connect 27 0 29 0 empty;
 #X connect 28 0 25 0 empty;
 #X connect 30 0 29 0 empty;
 #X connect 31 0 29 0 empty;
 #X connect 32 0 29 0 empty;
+#X connect 34 0 36 0 empty;
+#X connect 34 0 36 1 empty;
+#X connect 35 0 29 0 empty;
