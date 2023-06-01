@@ -17,7 +17,7 @@
 #X obj 79 249 select 1;
 #X obj 79 319 change;
 #X obj 9 499 outlet;
-#X obj 79 429 change;
+#X obj 79 419 change;
 #X obj 239 37 route click;
 #X obj 369 239 \$1;
 #N canvas 0 50 450 300 voice-\$0 1;
@@ -59,7 +59,6 @@
 #X obj 90 149 f;
 #X connect 0 0 19 0 empty;
 #X connect 2 0 18 0 empty;
-#X connect 2 0 22 0 48.................L....XH....C....FB...fu+++On....36+++CJ...vA++++;
 #X connect 3 0 2 0 empty;
 #X connect 3 1 2 1 empty;
 #X connect 4 0 9 0 empty;
@@ -77,6 +76,7 @@
 #X connect 15 0 13 0 empty;
 #X connect 16 0 3 0 empty;
 #X connect 18 0 23 0 empty;
+#X connect 18 0 22 0 48.................H....nH....B....JB...7s+++On....e6+++CJ...P59+++;
 #X connect 19 0 4 0 32.................O....Tx++++C....k7+++uA....;
 #X connect 19 0 2 0 48.................a....D8++++F....Q++++OT...PX++++CE...D1+++OSA...;
 #X connect 19 1 27 0 empty;
