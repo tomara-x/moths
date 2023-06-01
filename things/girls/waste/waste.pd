@@ -1,0 +1,10 @@
+#N canvas 827 239 700 530 12;
+#N canvas 0 50 450 250 (subpatch) 1;
+#X obj -29 -9 cnv 15 739 549 empty empty empty 20 12 0 14 #191919 #ffffff 0;
+#X obj 739 229 bng 25 250 50 0 empty empty X -628 36 0 891 #191919 #191919 #e90047;
+#X obj 801 229 bng 25 250 50 0 empty empty X -628 36 0 891 #191919 #191919 #870029;
+#X obj 895 229 bng 25 250 50 0 empty empty X -628 36 0 891 #191919 #191919 #3d0013;
+#X obj 1007 229 bng 25 250 50 0 empty empty X -628 36 0 891 #191919 #191919 #24000b;
+#X obj 709 229 bng 25 250 50 0 empty empty X -823 36 0 891 #191919 #191919 #160007;
+#X coords 0 1 100 -1 701 531 1 0 0;
+#X restore -1 -1 graph;
