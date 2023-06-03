@@ -1,0 +1,10 @@
+#N canvas 827 239 527 327 12;
+#X obj 168 192 readsf~ 2;
+#X msg 168 156 1;
+#X obj 168 122 t b b;
+#X msg 197 156 open ~/Music/lets-dance.wav;
+#X connect 0 2 2 0 48.................G....D7++++A....A++++K5+++O0++++h9+++S8++++o++++;
+#X connect 1 0 0 0 empty;
+#X connect 2 0 1 0 empty;
+#X connect 2 1 3 0 32.................G....3....vA....N....3.....;
+#X connect 3 0 0 0 32.................J....P9+++uB....j++++CA....;
