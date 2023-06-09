@@ -911,7 +911,7 @@
 #X msg 20 310 color #ffffff #ffffff \$1;
 #X msg 20 250 hsl \$1 100 50;
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🥦 609 -204 0 100 #ffffff #ffffff #0040ff;
+#X obj 20 490 bng 25 250 50 0 empty empty 🌟 609 -204 0 100 #ffffff #ffffff #73ff00;
 #X obj 20 180 rand.i 0 360;
 #X obj 20 130 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -1119,7 +1119,7 @@
 #X obj 769 396 nbx 4 20 0 32 0 1 empty empty empty 0 -4 0 10 #191919 #ffffff #ffffff 1 256;
 #X obj 547 492 svfilter~;
 #X obj 713 492 svfilter~;
-#X obj 495 371 envgen~, f 9;
+#X obj 489 371 envgen~, f 9;
 #X obj 547 422 *~;
 #X obj 510 508 *~;
 #X obj 713 422 *~;
@@ -1850,12 +1850,12 @@
 #X obj 315 478 * 12;
 #X obj 97 508 glide;
 #X obj 149 508 nbx 4 18 0 60000 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 416 378 nbx 4 18 0 15 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 425 400 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.52 256;
-#X obj 435 422 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.48 256;
-#X obj 445 444 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.57 256;
-#X obj 482 422 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.51 256;
-#X obj 499 444 tgl 25 1 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 1 1;
+#X obj 418 378 nbx 4 18 0 15 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 427 400 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.52 256;
+#X obj 437 422 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.48 256;
+#X obj 447 444 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.57 256;
+#X obj 484 422 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.51 256;
+#X obj 501 444 tgl 25 1 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 1 1;
 #N canvas 0 50 450 300 methods 0;
 #X msg 59 129 harmonics \$1;
 #X msg 109 99 timbre \$1;
@@ -1882,7 +1882,7 @@
 #X connect 10 0 3 0 empty;
 #X connect 11 0 10 0 empty;
 #X connect 12 0 9 0 empty;
-#X restore 416 476 pd methods;
+#X restore 418 476 pd methods;
 #X connect 0 0 49 1 empty;
 #X connect 1 0 50 1 empty;
 #X connect 2 0 51 1 empty;
@@ -2021,9 +2021,9 @@
 #X connect 109 0 115 1 32.................C....P8++++.....T++++a.....;
 #X connect 110 0 134 0 48.................F....fI...fA....XB...j3+++uo....I9+++aJ...Pi++++;
 #X connect 111 0 102 0 empty;
-#X connect 112 0 114 1 32.................C....fA...v.....X....j.....;
+#X connect 112 0 114 1 32.................D.....B....A....f....TG....;
 #X connect 113 0 110 0 empty;
-#X connect 114 0 161 0 48.................E....XA...PA....V....j2+++eI....48+++WB....e++++;
+#X connect 114 0 161 0 48.................E....fA...PA....X....j2+++eI....48+++WB....e++++;
 #X connect 115 0 111 0 empty;
 #X connect 116 0 128 0 empty;
 #X connect 117 0 121 2 empty;
@@ -2092,7 +2092,7 @@
 #X connect 163 0 131 0 48.................C....rA...v.....a....n9+++uJ....p++++qB...P6++++;
 #X connect 164 0 165 1 empty;
 #X connect 164 0 214 1 32.................D....n8+++OA....Z++++a.....;
-#X connect 165 0 167 0 48.................C....fE...v.....XA...j9+++Oa....o++++yF...f6++++;
+#X connect 165 0 167 0 48.................C....fE...v.....XA...b9+++OZ....m++++iF...f6++++;
 #X connect 167 0 114 0 48.................I....7C...PB....+....j9+++eX....o++++GF...P6++++;
 #X connect 167 1 114 0 48.................E....nB...PA....p....j9+++uT....o++++KE...P6++++;
 #X connect 170 0 212 2 48.................D....D++++OA....w++++K++++u3++++x++++K9+++u8++++;
