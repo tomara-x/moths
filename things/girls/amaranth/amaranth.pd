@@ -911,7 +911,7 @@
 #X msg 20 310 color #ffffff #ffffff \$1;
 #X msg 20 250 hsl \$1 100 50;
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🆓 609 -204 0 100 #ffffff #ffffff #ffa600;
+#X obj 20 490 bng 25 250 50 0 empty empty 🌑 609 -204 0 100 #ffffff #ffffff #6600ff;
 #X obj 20 180 rand.i 0 360;
 #X obj 20 130 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -1040,7 +1040,7 @@
 #X obj 682 267 nbx 4 20 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #53af65 #ffffff 0 256;
 #X obj 732 267 nbx 4 20 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #2d8ce3 #ffffff 0 256;
 #X obj 782 267 nbx 4 20 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #6a47b9 #ffffff 0 256;
-#X obj 621 8 function 200 100 empty empty 0 1 25 25 25 255 255 255 1 0 0 0 0.595745 32.7688 0.585106 38.6598 0.578947;
+#X obj 621 15 function 200 100 empty empty 0 1 25 25 25 255 255 255 1 0 0 0 0.595745 32.7688 0.585106 38.6598 0.578947;
 #X obj 119 231 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #ed3b4b #ffffff;
 #X obj 169 231 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #ff6e1d #ffffff;
 #X obj 219 231 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #fbcd26 #ffffff;
@@ -2013,7 +2013,7 @@
 #X connect 30 0 148 1 empty;
 #X connect 31 0 149 1 empty;
 #X connect 32 0 150 1 empty;
-#X connect 33 0 76 1 48.................C....bL...v.....GC...XM...Po++++VC...T5+++u1....;
+#X connect 33 0 76 1 48.................E....fL...PA....HC...LM....q++++SC...v5+++O1....;
 #X connect 34 0 137 0 empty;
 #X connect 34 0 134 0 32.................D....z3+++OA....M9+++m.....;
 #X connect 35 0 138 0 empty;
@@ -2093,7 +2093,7 @@
 #X connect 93 0 125 1 empty;
 #X connect 94 0 127 0 48.................C....nA...v.....Z....n9+++eJ....p++++mB...P6++++;
 #X connect 95 0 170 0 empty;
-#X connect 96 0 33 0 48.................E....3D...PA....NA...L5+++OX....i9+++CF...fo++++;
+#X connect 96 0 33 0 48.................E....3D...PA....NA...b5+++OX....m9+++CF...Pq++++;
 #X connect 97 0 79 0 empty;
 #X connect 98 0 103 0 empty;
 #X connect 99 0 101 0 32.................D....r6+++OA....69+++i.....;
