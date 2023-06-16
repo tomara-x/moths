@@ -911,7 +911,7 @@
 #X msg 20 310 color #ffffff #ffffff \$1;
 #X msg 20 250 hsl \$1 100 50;
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 👻 609 -204 0 100 #ffffff #ffffff #fff200;
+#X obj 20 490 bng 25 250 50 0 empty empty ☢️ 609 -204 0 100 #ffffff #ffffff #ff00f7;
 #X obj 20 180 rand.i 0 360;
 #X obj 20 130 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -1096,7 +1096,7 @@
 #X obj 33 384 nbx 3 18 -256 0 0 1 empty empty min -26 9 0 12 #191919 #ffacab #ffffff -36 256;
 #X obj 105 406 nbx 4 18 0 256 0 1 empty empty empty 0 -8 0 10 #191919 #ffacab #ffffff 36 256;
 #X obj 90 384 nbx 4 18 -256 0 0 1 empty empty empty 0 -8 0 10 #191919 #ffacab #ffffff -36 256;
-#X obj 162 404 nbx 4 18 0 256 0 1 empty empty empty 0 -8 0 10 #191919 #ffacab #ffffff 36 256;
+#X obj 162 406 nbx 4 18 0 256 0 1 empty empty empty 0 -8 0 10 #191919 #ffacab #ffffff 36 256;
 #X obj 147 384 nbx 4 18 -256 0 0 1 empty empty empty 0 -8 0 10 #191919 #ffacab #ffffff -36 256;
 #X obj 19 352 router 3;
 #X obj 71 327 hradio 20 1 1 3 empty empty limit\ mode 10 26 0 12 #191919 #ffacab #ffffff 0;
@@ -2027,8 +2027,8 @@
 #X connect 89 0 85 2 empty;
 #X connect 90 0 85 1 empty;
 #X connect 91 0 84 0 empty;
-#X connect 91 1 83 0 32.................H....rB....B....q....vC....;
-#X connect 91 2 85 0 32.................D....TE....A....UA...vC....;
+#X connect 91 1 83 0 32.................H....fB....B....n....nC....;
+#X connect 91 2 85 0 32.................E....7D...PA....OA...nC....;
 #X connect 92 0 91 1 32.................C.....+++++.....v++++W.....;
 #X connect 93 0 125 1 empty;
 #X connect 94 0 127 0 48.................C....nA...v.....Z....n9+++eJ....p++++mB...P6++++;
