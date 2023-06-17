@@ -1,4 +1,4 @@
-#N canvas 827 239 1000 560 12;
+#N canvas 827 239 710 545 12;
 #X obj 30 30 nbx 4 20 -36 36 0 1 t-0 empty empty 0 -8 0 10 #191919 #5bcefa #ffffff 0 256;
 #X obj 30 60 nbx 4 20 -36 36 0 1 t-1 empty empty 0 -8 0 10 #191919 #f5a9b8 #ffffff 0 256;
 #X obj 30 90 nbx 4 20 -36 36 0 1 t-2 empty empty 0 -8 0 10 #191919 #ed3b4b #ffffff 0 256;
@@ -911,7 +911,7 @@
 #X msg 20 310 color #ffffff #ffffff \$1;
 #X msg 20 250 hsl \$1 100 50;
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 🌑 609 -204 0 100 #ffffff #ffffff #6600ff;
+#X obj 20 490 bng 25 250 50 0 empty empty 🦀 609 -204 0 100 #ffffff #ffffff #c800ff;
 #X obj 20 180 rand.i 0 360;
 #X obj 20 130 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
