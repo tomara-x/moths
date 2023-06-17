@@ -1,0 +1,15 @@
+#N canvas 827 239 527 327 12;
+#X obj 119 79 cnv 15 8 145 empty hi empty 20 12 0 14 #ff0039 #ffffff 0;
+#X obj 139 79 cnv 15 8 145 empty hi empty 20 12 0 14 #81ff00 #ffffff 0;
+#X msg 269 189 vis_size \$1 \$2;
+#X obj 269 219 s hi;
+#X obj 269 159 pack;
+#X obj 269 79 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 319 79 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 299 109 t b f;
+#X connect 2 0 3 0 empty;
+#X connect 4 0 2 0 empty;
+#X connect 5 0 4 0 empty;
+#X connect 6 0 7 0 empty;
+#X connect 7 0 4 0 empty;
+#X connect 7 1 4 1 empty;
