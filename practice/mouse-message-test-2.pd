@@ -1,15 +1,13 @@
 #N canvas 379 38 958 649 12;
 #X msg 239 309 mouseup 10 10 1;
 #N canvas 0 288 450 300 hi 1;
-#X obj 10 10 metro;
-#X obj 100 10 metro;
-#X obj 10 100 metro;
-#X obj 100 100 metro;
 #X restore 139 249 pd hi;
 #X obj 59 249 s pd-hi;
 #X msg 59 19 mouse 10 10 0 0 \, mouse 100 100 0 0 \, cut;
 #X msg 89 199 clear \, obj 10 10 metro \, obj 100 10 metro \, obj 10 100 metro \, obj 100 100 metro \, editmode 1, f 41;
 #X msg 79 49 mouse 10 10 0 0 \, mouse 100 100 0 1 \, cut;
+#X msg 89 99 mouse 0 0 1 0 \, mouseup 100 100 1 0 \, cut;
 #X connect 3 0 2 0 empty;
 #X connect 4 0 2 0 empty;
 #X connect 5 0 2 0 empty;
+#X connect 6 0 2 0 empty;
