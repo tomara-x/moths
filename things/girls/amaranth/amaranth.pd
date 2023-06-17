@@ -911,7 +911,7 @@
 #X msg 20 310 color #ffffff #ffffff \$1;
 #X msg 20 250 hsl \$1 100 50;
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 490 bng 25 250 50 0 empty empty 💜 609 -204 0 100 #ffffff #ffffff #ff0033;
+#X obj 20 490 bng 25 250 50 0 empty empty 🎷 609 -204 0 100 #ffffff #ffffff #7b00ff;
 #X obj 20 180 rand.i 0 360;
 #X obj 20 130 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -1963,8 +1963,8 @@
 #X connect 19 0 1 0 empty;
 #X connect 20 0 1 0 empty;
 #X coords 0 1 100 -1 21 21 1 0 0;
-#X restore 69 96 graph;
-#X obj 99 99 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X restore 139 96 graph;
+#X obj 79 102 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X connect 0 0 135 0 32.................C....HM++++.....Ry+++a.....;
 #X connect 0 0 136 0 32.................C....PP++++.....Dz+++a.....;
 #X connect 0 0 137 0 32.................C....XS++++.....1z+++a.....;
@@ -2102,7 +2102,7 @@
 #X connect 101 0 103 0 32.................D....L8+++OA....S++++i.....;
 #X connect 102 0 99 0 48.................B....rC...f.....6....n9+++eR....p++++mD...f6++++;
 #X connect 103 0 104 0 empty;
-#X connect 104 0 184 0 48.................E....HD...PA....BA...v9+++OT....r++++CE...v6++++;
+#X connect 104 0 184 0 48.................E....jB...PA....o....39+++OO....t++++yC...f7++++;
 #X connect 105 0 104 0 32.................D....T6+++OA....09+++m.....;
 #X connect 106 0 104 0 32.................D....D4+++OA....Q9+++m.....;
 #X connect 107 0 104 0 32.................D.....t+++OA....f6+++m.....;
@@ -2196,7 +2196,7 @@
 #X connect 179 0 128 0 32.................F....P++++uA....z++++y.....;
 #X connect 180 0 125 0 48.................C....7A...v.....e....v7+++uK....L++++6B...vy++++;
 #X connect 181 0 151 0 empty;
-#X connect 183 0 184 0 48.................C....z....v.....M....v9+++OH....r++++CB...v6++++;
+#X connect 183 0 184 0 48.................C....D+++++.....w++++69++++w++++t++++e7+++u7++++;
 #X connect 184 0 153 0 32.................J.....6+++uB....v9+++OA....;
 #X connect 184 0 165 0 32.................J....ff...fB....HH...HA....;
 #X connect 184 0 161 0 32.................J.....T...fB.....E...HA....;
