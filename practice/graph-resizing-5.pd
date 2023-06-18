@@ -1,0 +1,14 @@
+#N canvas 827 239 527 327 12;
+#N canvas 0 50 450 300 hi 1;
+#X coords 0 1 100 -1 100 200 1 0 0;
+#X restore 9 9 pd hi;
+#X obj 179 269 s pd-hi;
+#X msg 179 139 coords 0 1 100 -1 200 100 2;
+#X msg 199 169 coords 0 1 100 -1 20 150 2;
+#X msg 219 199 coords 0 1 100 -1 140 80 0;
+#X msg 229 229 coords 0 1 100 -1 100 200 1;
+#X text 405 201 we get stucky here;
+#X connect 2 0 1 0 empty;
+#X connect 3 0 1 0 empty;
+#X connect 4 0 1 0 empty;
+#X connect 5 0 1 0 empty;
