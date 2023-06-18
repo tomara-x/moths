@@ -1,0 +1,17 @@
+#N canvas 827 239 466 348 12;
+#X msg 19 269 graph hi 0 1 100 -1 100 100 200 0;
+#X obj 249 309 s pd-hi;
+#X obj 19 309 s this;
+#X obj 79 309 namecanvas this;
+#X obj 249 249 pack2;
+#X obj 219 219 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #e4e4e4 #4d4d4d #4d4d4d 0 256;
+#X obj 279 219 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #e4e4e4 #4d4d4d #4d4d4d 0 256;
+#X obj 19 229 loadbang;
+#X msg 249 279 donecanvasdialog 1 -1 1 0 -1 1 1 \$1 \$2 100 100 1;
+#X connect 0 0 2 0 empty;
+#X connect 4 0 8 0 empty;
+#X connect 5 0 4 0 empty;
+#X connect 6 0 4 1 empty;
+#X connect 7 0 0 0 empty;
+#X connect 8 0 1 0 empty;
+#X coords 0 1 100 -1 100 175 0;
