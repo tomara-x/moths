@@ -202,12 +202,12 @@
 #X obj 559 119 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 711 269 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 240 256;
 #X obj 661 269 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 470 256;
-#X obj 644 244 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 644 244 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff -1 256;
 #X text 761 268 width & height;
 #X text 539 118 n;
-#X obj 627 219 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 627 219 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 2 256;
 #X text 675 220 x offset;
-#X obj 610 194 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 610 194 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 2 256;
 #X text 659 194 spacing;
 #X obj 593 171 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 576 149 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
