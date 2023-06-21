@@ -4,9 +4,9 @@
 #X msg 128 39 height \$1;
 #X obj 128 9 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 9 79 slidarr-abs hi;
-#X obj 539 299 array define -k ahi;
-#A resize 8;
-#A 0 0.424893 -0.459227 -0.519313 -0.356223 -0.339056 -0.0386266 -0.44206 0.356223;
+#X obj 489 259 array define -k ahi;
+#A resize 33;
+#A 0 0.888412 0.845494 0.793991 0.751073 0.682403 0.60515 0.51073 0.399142 0.296137 0.227468 0.158798 0.0643777 -0.0386266 -0.133047 -0.2103 -0.287554 -0.330472 -0.399142 -0.476395 -0.519313 -0.570815 -0.630901 -0.690987 -0.725322 -0.742489 -0.785408 -0.83691 -0.879828 -0.888412 -0.888412 -0.93133 -0.845494 -0.939914;
 #X msg 209 39 uni \$1;
 #X obj 209 9 tgl 25 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
 #X obj 58 9 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
@@ -21,6 +21,7 @@
 #X obj 359 9 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X connect 0 0 4 0 empty;
 #X connect 1 0 0 0 empty;
+#X connect 1 0 13 0 empty;
 #X connect 2 0 4 0 empty;
 #X connect 3 0 2 0 empty;
 #X connect 6 0 4 0 empty;
