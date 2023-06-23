@@ -1,0 +1,15 @@
+#N canvas 827 239 200 140 12;
+#X obj 279 139 savestate;
+#X obj 439 39 inlet;
+#X obj 489 39 inlet;
+#X obj 439 99 pack;
+#X obj 439 219 print;
+#X obj 379 139 list store;
+#X connect 0 0 3 0 empty;
+#X connect 0 1 5 0 empty;
+#X connect 1 0 3 0 empty;
+#X connect 2 0 3 1 empty;
+#X connect 3 0 4 0 empty;
+#X connect 3 0 5 1 empty;
+#X connect 5 0 0 0 empty;
+#X coords 0 0 1 1 200 140 0;
