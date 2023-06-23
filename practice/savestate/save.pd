@@ -1,0 +1,12 @@
+#N canvas 827 239 527 327 12;
+#X obj 289 109 savestate;
+#X obj 289 229 array set internal;
+#X obj 339 149 array get internal;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array internal 100 float 2;
+#X coords 0 1 100 -1 200 140 1;
+#X restore 0 0 graph;
+#X connect 0 0 1 0 empty;
+#X connect 0 1 2 0 empty;
+#X connect 2 0 0 0 empty;
+#X coords 0 0 1 1 200 140 1 0 0;
