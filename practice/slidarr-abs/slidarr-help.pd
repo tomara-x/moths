@@ -2,6 +2,7 @@
 #X obj 19 89 slidarr hi;
 #A saved 64 0 512 256 4 3 #191919 40;
 #A saved #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa;
+#A saved 0.0232558 0.0775194 0.139535 0.170543 0.217054 0.271318 0.325581 0.364341 0.395349 0.44186 0.457364 0.48062 0.496124 0.511628 0.51938 0.51938 0.527132 0.527132 0.527132 0.503876 0.48062 0.465116 0.44186 0.410853 0.372093 0.325581 0.27907 0.209302 0.131783 0.0620155 0.0465117 -0.100775 -0.151163 -0.209302 -0.255814 -0.29845 -0.344961 -0.383721 -0.414729 -0.434108 -0.44186 -0.457364 -0.465116 -0.465116 -0.465116 -0.465116 -0.465116 -0.449612 -0.449612 -0.44186 -0.418605 -0.406977 -0.395349 -0.364341 -0.348837 -0.313954 -0.286822 -0.263566 -0.22093 -0.182171 -0.139535 -0.116279 -0.0813954 -0.0465117;
 #X obj 19 19 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X msg 212 49 height \$1;
 #X obj 212 19 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
