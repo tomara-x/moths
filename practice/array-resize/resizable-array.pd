@@ -1,0 +1,14 @@
+#N canvas 827 239 527 327 12;
+#X obj 83 118 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 138 121 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 89 179 pack2;
+#N canvas 0 50 450 300 cat 0;
+#X array cat 100 float 2;
+#X coords 0 -1 100 1 203 77 1;
+#X restore 309 159 pd cat;
+#X obj 88 261 s pd-cat;
+#X msg 89 209 coords 0 -1 100 1 \$1 \$2 2;
+#X connect 0 0 2 0 empty;
+#X connect 1 0 2 1 empty;
+#X connect 2 0 5 0 empty;
+#X connect 5 0 4 0 empty;
