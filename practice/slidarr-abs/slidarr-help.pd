@@ -1,8 +1,8 @@
 #N canvas 827 239 900 717 12;
 #X obj 19 89 slidarr hi;
-#A saved 64 0 512 256 4 3 #191919 40;
-#A saved #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #ffacab #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa #5bcefa;
-#A saved 0.852713 0.844961 0.821705 0.817829 0.79845 0.786822 0.767442 0.744186 0.713178 0.662791 0.600775 0.515504 0.445736 0.379845 0.286822 0.189923 0.0852714 0.0310078 -0.0310078 -0.0891473 -0.166667 -0.232558 -0.29845 -0.383721 -0.414729 -0.465116 -0.511628 -0.546512 -0.581395 -0.627907 -0.655039 -0.693798 -0.713178 -0.74031 -0.75969 0.813954 0.713178 0.589147 0.472868 0.434108 0.321705 0.251938 0.197674 0.131783 0.0813954 0.0271318 -0.0232558 -0.0542636 -0.0775194 -0.124031 -0.193798 -0.271318 -0.348837 -0.403101 -0.488372 -0.55814 -0.635659 -0.713178 -0.775194 -0.829457 -0.899225 -0.945736 -0.976744 -0.984496;
+#A saved 76 0 512 256 4 3 #191919 40;
+#A saved 0 #5bcefa \; 1 #5bcefa \; 2 #5bcefa \; 3 #5bcefa \; 4 #5bcefa \; 5 #5bcefa \; 6 #5bcefa \; 7 #5bcefa \; 8 #5bcefa \; 9 #5bcefa \; 10 #5bcefa \; 11 #5bcefa \; 12 #5bcefa \; 13 #5bcefa \; 14 #5bcefa \; 15 #5bcefa \; 16 #5bcefa \;;
+#A saved 0.852713 0 0 0 0 0 0.511628 0.527132 0.565892 0.585271 0.624031 0.635659 0.633075 0.630491 0.608527 0.573643 0.514212 0.478036 0.100775 0.0310078 0.0310078 0.0310078 0.0348837 0.0387597 0.0439277 0.0490956 0.0620155 0.0775194 0.100775 0.151163 0.205426 0.251938 0.310077 0.374677 0.408269 0.46124 0.465116 0.46124 0.437984 0.391473 0.337209 0.244186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X obj 19 19 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X msg 212 49 height \$1;
 #X obj 212 19 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
