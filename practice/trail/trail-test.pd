@@ -33,6 +33,7 @@
 #X msg 426 286 set #ffffff;
 #X msg 360 289 set \$1;
 #X msg 49 69 width \$1 \, height \$1;
+#X msg 539 179 #191919;
 #X connect 1 0 0 0 empty;
 #X connect 2 0 0 0 32.................O....Lz++++C....C8+++CE....;
 #X connect 3 0 0 0 32.................O....bv++++C....G7+++CE....;
@@ -66,3 +67,4 @@
 #X connect 30 0 28 2 empty;
 #X connect 31 0 28 1 empty;
 #X connect 32 0 0 0 32.................O....j8++++C....Y++++CE....;
+#X connect 33 0 25 2 empty;
