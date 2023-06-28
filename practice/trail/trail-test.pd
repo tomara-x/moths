@@ -37,7 +37,7 @@
 #X msg 452 350 #ffffff;
 #X obj 419 258 text insert colors;
 #X obj 549 19 text define -k colors;
-#A set 0 0 #ff0000 \; 21 0 #ff0000 \; 0 21 #ff0000 \; 21 21 #ff0000 \;;
+#A set 0 0 #ff0000 \; 31 0 #ff0000 \; 0 31 #ff0000 \; 31 31 #ff0000 \;;
 #X obj 253 186 text sequence colors;
 #X obj 253 132 lb 2;
 #X msg 267 158 line 0;
@@ -87,6 +87,7 @@
 #X connect 9 0 2 0 empty;
 #X connect 9 0 43 1 empty;
 #X connect 9 0 29 0 empty;
+#X connect 9 0 10 0 empty;
 #X connect 10 0 3 0 empty;
 #X connect 11 0 4 0 empty;
 #X connect 12 0 5 0 empty;
