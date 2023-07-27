@@ -63,10 +63,10 @@
 #X obj 210 420 nbx 4 20 -24 24 0 1 z-13 empty empty 0 -8 0 10 #191919 #53af65 #ffffff 0 256;
 #X obj 210 450 nbx 4 20 -24 24 0 1 z-14 empty empty 0 -8 0 10 #191919 #2d8ce3 #ffffff 0 256;
 #X obj 210 480 nbx 4 20 -24 24 0 1 z-15 empty empty 0 -8 0 10 #191919 #6a47b9 #ffffff 0 256;
-#X text 30 9 t, f 2;
-#X text 90 9 x, f 2;
-#X text 150 9 y, f 2;
-#X text 210 9 z, f 2;
+#X text 30 9 t, f 3;
+#X text 90 9 x, f 3;
+#X text 150 9 y, f 3;
+#X text 210 9 z, f 3;
 #X obj 90 520 nbx 3 20 -128 128 0 1 x-mult empty empty 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
 #X obj 150 520 nbx 3 20 -128 128 0 1 y-mult empty empty 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
 #X obj 210 520 nbx 3 20 -128 128 0 1 z-mult empty empty 0 -7 0 14 #191919 #ffacab #ffffff 0 256;
@@ -911,7 +911,7 @@
 #X msg 20 310 color #ffffff #ffffff \$1;
 #X msg 20 250 hsl \$1 100 50;
 #X obj 20 220 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 490 bng 25 250 50 0 empty empty ⚧ 609 -204 0 100 #ffffff #ffffff #ff0062;
+#X obj 20 490 bng 25 250 50 0 empty empty 💎 609 -204 0 100 #ffffff #ffffff #ff00f2;
 #X obj 20 180 rand.i 0 360;
 #X obj 20 130 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -1987,6 +1987,9 @@
 #X connect 3 0 2 0 empty;
 #X coords 0 1 100 -1 21 21 1 0 0;
 #X restore 859 19 graph;
+#X obj 249 9 inlet~;
+#X obj 299 9 inlet;
+#X obj 869 466 outlet;
 #X connect 0 0 135 0 32.................C....HM++++.....Ry+++a.....;
 #X connect 0 0 136 0 32.................C....PP++++.....Dz+++a.....;
 #X connect 0 0 137 0 32.................C....XS++++.....1z+++a.....;
