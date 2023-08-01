@@ -6,7 +6,7 @@
 #X obj 99 259 spigot;
 #X msg 169 169 1;
 #X msg 269 179 0;
-#X msg 249 349;
+#X msg 249 349 5 1 1 5 2;
 #X msg 99 299 add2 \$1;
 #X obj 189 219 change;
 #X obj 189 259 select 1 0;
@@ -54,6 +54,12 @@
 #X obj 299 39 key;
 #X text 369 148 this key becomes a "modifier" \; so when it's held \, we accept numbers and accumulate them \; until that key is released then we output the numbers;
 #X text 369 58 open the toggle and then press any key \, then close it;
+#X msg 419 289 1;
+#X msg 459 289 3;
+#X msg 490 287 2;
+#X obj 419 379 pack f f;
+#X msg 439 419 set \$2\$1;
+#X msg 419 459 832;
 #X connect 0 0 12 0 empty;
 #X connect 1 0 3 0 empty;
 #X connect 2 0 5 0 empty;
@@ -75,3 +81,9 @@
 #X connect 15 0 3 1 empty;
 #X connect 16 0 15 1 empty;
 #X connect 17 0 15 0 empty;
+#X connect 20 0 23 0 empty;
+#X connect 21 0 23 0 empty;
+#X connect 22 0 23 0 empty;
+#X connect 23 0 24 0 empty;
+#X connect 24 0 25 0 empty;
+#X connect 25 0 23 1 empty;
