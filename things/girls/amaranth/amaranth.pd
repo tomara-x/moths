@@ -911,7 +911,7 @@
 #X msg 20 240 color #ffffff #ffffff \$1;
 #X msg 20 180 hsl \$1 100 50;
 #X obj 20 150 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 420 bng 25 250 50 0 empty empty 🦗 252 -29 0 100 #ffffff #ffffff #aaff00;
+#X obj 20 420 bng 25 250 50 0 empty empty 🐭 252 -29 0 100 #ffffff #ffffff #09ff00;
 #X obj 20 110 rand.i 0 360;
 #X obj 20 60 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -1972,9 +1972,11 @@
 #X obj 39 9 inlet;
 #X obj 39 99 outlet;
 #X obj 39 59 spigot;
+#X obj 109 9 inlet;
 #X connect 0 0 3 1 empty;
 #X connect 1 0 3 0 empty;
 #X connect 3 0 2 0 empty;
+#X connect 4 0 0 0 empty;
 #X coords 0 1 100 -1 21 21 1 0 0;
 #X restore 559 9 graph;
 #N canvas 0 50 450 250 (subpatch) 0;
@@ -1982,9 +1984,11 @@
 #X obj 49 9 inlet~;
 #X obj 49 109 outlet~;
 #X obj 49 59 *~ 0;
+#X obj 129 9 inlet;
 #X connect 0 0 3 1 empty;
 #X connect 1 0 3 0 empty;
 #X connect 3 0 2 0 empty;
+#X connect 4 0 0 0 empty;
 #X coords 0 1 100 -1 21 21 1 0 0;
 #X restore 584 9 graph;
 #X obj 249 9 inlet~;
