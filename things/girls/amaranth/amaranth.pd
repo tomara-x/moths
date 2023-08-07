@@ -911,7 +911,7 @@
 #X msg 20 240 color #ffffff #ffffff \$1;
 #X msg 20 180 hsl \$1 100 50;
 #X obj 20 150 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 420 bng 25 250 50 0 empty empty 🍑 252 -29 0 100 #ffffff #ffffff #ffee00;
+#X obj 20 420 bng 25 250 50 0 empty empty 🎲 252 -29 0 100 #ffffff #ffffff #bb00ff;
 #X obj 20 110 rand.i 0 360;
 #X obj 20 60 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -1114,7 +1114,7 @@
 #X msg 95 100 up, f 4;
 #X msg 131 100 down;
 #X msg 308 100 alt \$1;
-#X obj 308 72 tgl 25 1 empty empty empty 0 -7 0 12 #191919 #ffacab #ffffff 1 1;
+#X obj 308 72 tgl 25 1 empty empty empty 0 -7 0 12 #191919 #ffacab #ffffff 0 1;
 #X obj 246 77 nbx 4 18 0 15 0 1 empty empty empty 0 -6 0 12 #191919 #ffacab #ffffff 15 256;
 #X msg 246 100 max \$1, f 8;
 #X msg 184 100 min \$1, f 8;
