@@ -893,7 +893,7 @@
 #X msg 20 240 color #ffffff #ffffff \$1;
 #X msg 20 180 hsl \$1 100 50;
 #X obj 20 150 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 420 bng 25 250 50 0 empty empty 💧 252 -29 0 100 #ffffff #ffffff #00ff88;
+#X obj 20 420 bng 25 250 50 0 empty empty ☣️ 252 -29 0 100 #ffffff #ffffff #ff0022;
 #X obj 20 110 rand.i 0 360;
 #X obj 20 60 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -1982,7 +1982,7 @@
 #X restore 803 492 graph;
 #X obj 122 39 t b f;
 #X obj 122 14 nbx 4 18 1 128 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 4 256;
-#N canvas 0 50 450 300 kn 0;
+#N canvas 0 50 723 532 kn 0;
 #X obj 89 129 key;
 #X obj 259 189 keyup;
 #X obj 179 199 select 97;
