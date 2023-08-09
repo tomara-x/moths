@@ -893,7 +893,7 @@
 #X msg 20 240 color #ffffff #ffffff \$1;
 #X msg 20 180 hsl \$1 100 50;
 #X obj 20 150 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 20 420 bng 25 250 50 0 empty empty 🌒 252 -29 0 100 #ffffff #ffffff #ff8400;
+#X obj 20 420 bng 25 250 50 0 empty empty 🩸 252 -29 0 100 #ffffff #ffffff #ffee00;
 #X obj 20 110 rand.i 0 360;
 #X obj 20 60 metro 0 0.0125 sec;
 #X connect 0 0 3 0 empty;
@@ -2309,7 +2309,11 @@
 #X msg 139 269 stop;
 #X obj 139 59 select 0 1;
 #X msg 189 329 open amaranth-\$1.wav \, start;
+#X obj 459 99 chrono;
+#X obj 459 129 outlet;
+#X obj 459 69 t f b;
 #X connect 0 0 16 0 empty;
+#X connect 0 0 20 0 empty;
 #X connect 1 0 14 0 empty;
 #X connect 2 0 14 1 empty;
 #X connect 3 0 5 0 empty;
@@ -2332,8 +2336,12 @@
 #X connect 16 0 15 0 empty;
 #X connect 16 1 3 0 empty;
 #X connect 17 0 14 0 empty;
+#X connect 18 0 19 0 empty;
+#X connect 20 0 18 0 empty;
+#X connect 20 1 18 0 empty;
 #X restore 328 416 pd record;
 #X obj 373 386 tgl 25 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
+#X symbolatom 328 442 10 0 0 0 - - - 0;
 #X connect 73 0 79 0 32.................H....H6+++OB....x9+++OA....;
 #X connect 73 1 80 0 32.................N....T6+++uC....09+++OA....;
 #X connect 79 0 71 0 empty;
@@ -2362,4 +2370,5 @@
 #X connect 102 0 73 0 32.................H....Xy+++OB....17+++6.....;
 #X connect 103 0 85 0 empty;
 #X connect 105 0 83 0 empty;
+#X connect 106 0 108 0 empty;
 #X connect 107 0 106 2 empty;
