@@ -998,7 +998,7 @@
 #X obj 682 297 nbx 4 20 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #53af65 #ffffff 0 256;
 #X obj 732 297 nbx 4 20 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #2d8ce3 #ffffff 0 256;
 #X obj 782 297 nbx 4 20 -24 24 0 1 empty empty empty 0 -8 0 10 #191919 #6a47b9 #ffffff 0 256;
-#X obj 531 45 function 200 100 empty empty 0 1 25 25 25 255 255 255 1 0 0 0 0.595745 32.7688 0.585106 38.6598 0.578947;
+#X obj 531 71 function 169 74 empty empty 0 1 25 25 25 255 255 255 1 0 0 0 0.595745 32.7688 0.585106 38.6598 0.578947;
 #X obj 119 261 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #ed3b4b #ffffff;
 #X obj 169 261 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #ff6e1d #ffffff;
 #X obj 219 261 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #fbcd26 #ffffff;
@@ -1882,7 +1882,7 @@
 #X connect 3 1 1 1 empty;
 #X restore 216 498 pd +;
 #X obj 431 73 !/ 60000;
-#X obj 349 9 loadbang;
+#X obj 409 9 loadbang;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X obj 109 79 key;
 #X obj 19 289 spigot;
@@ -1956,7 +1956,7 @@
 #X connect 3 0 2 0 empty;
 #X connect 4 0 0 0 empty;
 #X coords 0 1 100 -1 21 21 1 0 0;
-#X restore 433 9 graph;
+#X restore 680 9 graph;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X obj 0 0 tgl 21 1 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 1 1;
 #X obj 49 9 inlet~;
@@ -2019,8 +2019,8 @@
 #X connect 18 0 2 1 empty;
 #X connect 18 0 3 1 empty;
 #X connect 19 0 9 1 empty;
-#X restore 467 35 pd kn;
-#X obj 469 9 tgl 21 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
+#X restore 649 35 pd kn;
+#X obj 651 9 tgl 21 0 empty empty empty 17 7 0 10 #191919 #ffffff #ffffff 0 1;
 #X obj 279 9 inlet;
 #X obj 879 517 outlet;
 #X obj 822 517 outlet~;
@@ -2052,9 +2052,9 @@
 #X connect 4 0 0 0 empty;
 #X coords 0 1 100 -1 21 21 1 0 0;
 #X restore 472 499 graph;
-#X obj 739 75 function 71 36 empty empty 0 1 25 25 25 212 212 212 1 0 0 0 0 79.1139 0.741935 170.886 0;
-#X obj 739 25 nbx 6 18 1 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 250 256;
-#X obj 736 120 envgen~, f 9;
+#X obj 709 59 function 71 36 empty empty 0 1 25 25 25 212 212 212 1 0 0 0 0 79.1139 0.741935 170.886 0;
+#X obj 709 9 nbx 6 18 1 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 250 256;
+#X obj 706 104 envgen~, f 9;
 #N canvas 0 50 450 300 dur 0;
 #X obj 159 39 inlet;
 #X msg 159 129 duration \$1;
@@ -2064,7 +2064,7 @@
 #X connect 1 0 3 0 empty;
 #X connect 2 0 3 0 empty;
 #X connect 2 1 1 0 empty;
-#X restore 739 49 pd dur;
+#X restore 709 33 pd dur;
 #N canvas 0 50 450 300 dur 0;
 #X obj 159 39 inlet;
 #X msg 159 129 duration \$1;
@@ -2123,7 +2123,7 @@
 #X connect 30 0 145 1 empty;
 #X connect 31 0 146 1 empty;
 #X connect 32 0 147 1 empty;
-#X connect 33 0 74 1 48.................E....fL...PA....HC...LM....q++++SC...v5+++O1....;
+#X connect 33 0 74 1 48.................E....DR...PA....gD...LM...PF....SC...jA....1....;
 #X connect 34 0 134 0 empty;
 #X connect 34 0 131 0 32.................D....z3+++OA....M9+++m.....;
 #X connect 35 0 135 0 empty;
@@ -2334,7 +2334,7 @@
 #X connect 197 0 199 1 32.................E....TB...PA....k....j.....;
 #X connect 198 0 200 0 empty;
 #X connect 200 0 197 0 empty;
-#X connect 201 0 33 0 48.................C....TC...v.....0....T4+++uQ....U9+++aD....l++++;
+#X connect 201 0 33 0 48.................C....TC...v.....0....z5+++uQ....s9+++aD...fr++++;
 #X restore 279 69 pd seq1;
 #N canvas 0 50 548 437 record 1;
 #X obj 139 19 inlet;
@@ -2393,11 +2393,11 @@
 #X obj 19 19 loadbang;
 #X obj 19 189 colors;
 #X msg 19 159 hsl \$1 100 50;
-#X obj 19 349 bng 25 250 50 0 empty empty 🦀 55 70 0 100 #181818 #181818 #ff001e;
+#X obj 19 349 bng 25 250 50 0 empty empty 🦗 55 70 0 100 #181818 #181818 #00bbff;
 #X obj 19 129 rand.i 0 360;
 #X msg 19 239 color #181818 #181818 \$1;
 #X obj 189 159 t b f b;
-#X msg 189 309 symbol \$5;
+#X msg 189 309 symbol \$48;
 #X msg 203 250 adddollar \$1;
 #X msg 219 279 set symbol;
 #X msg 189 189 list 👻 🧵 🪡 🦋 🦀 🐐 🍀 🍄 🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌟 💧 🎷 🎲 🚁 🐭 🔪 🪞 🧿 🧹 🩸 🪱 🧸 💜 ☮ 🆘 🆒 🆓 🖤 ⚧ ☢️ ☣️ 🦊 💎 🐶 🦝 🔮 🦈 🌸 🍑 🥦 🦗 🦐 🍤 🐛 🐠 🫧 🤍 🐸 🐍 🌊 🍡 🍠 🍥 🍙 🍰 🌠 🦞 🪸 🐞 🪲 🐌 🕊 🌿 🎱 🐳 💕 💋 🍧 🥥 ☄️ ☀️ 🐜 🦑 🪓 🕸 🧭 🎑 🌅 🌄 🌠 🎇 🎆 🌇 🌆 🌃 🌌 🌉 🌁, f 90;
