@@ -1836,7 +1836,7 @@
 #X obj 321 468 * 12;
 #X obj 97 498 glide;
 #X obj 149 498 nbx 4 18 0 60000 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 418 368 nbx 4 18 0 15 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 6 256;
+#X obj 418 368 nbx 4 18 0 23 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 6 256;
 #X obj 427 390 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 437 412 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.48 256;
 #X obj 447 434 nbx 4 18 0 1 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0.57 256;
@@ -2393,11 +2393,11 @@
 #X obj 19 19 loadbang;
 #X obj 19 189 colors;
 #X msg 19 159 hsl \$1 100 50;
-#X obj 19 349 bng 25 250 50 0 empty empty 🐸 55 70 0 100 #181818 #181818 #ffcc00;
+#X obj 19 349 bng 25 250 50 0 empty empty 🐜 55 70 0 100 #181818 #181818 #ff0051;
 #X obj 19 129 rand.i 0 360;
 #X msg 19 239 color #181818 #181818 \$1;
 #X obj 189 159 t b f b;
-#X msg 189 309 symbol \$55;
+#X msg 189 309 symbol \$79;
 #X msg 203 250 adddollar \$1;
 #X msg 219 279 set symbol;
 #X msg 189 189 list 👻 🧵 🪡 🦋 🦀 🐐 🍀 🍄 🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌟 💧 🎷 🎲 🚁 🐭 🔪 🪞 🧿 🧹 🩸 🪱 🧸 💜 ☮ 🆘 🆒 🆓 🖤 ⚧ ☢️ ☣️ 🦊 💎 🐶 🦝 🔮 🦈 🌸 🍑 🥦 🦗 🦐 🍤 🐛 🐠 🫧 🤍 🐸 🐍 🌊 🍡 🍠 🍥 🍙 🍰 🌠 🦞 🪸 🐞 🪲 🐌 🕊 🌿 🎱 🐳 💕 💋 🍧 🥥 ☄️ ☀️ 🐜 🦑 🪓 🕸 🧭 🎑 🌅 🌄 🌠 🎇 🎆 🌇 🌆 🌃 🌌 🌉 🌁, f 90;
