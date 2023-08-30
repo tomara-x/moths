@@ -1,6 +1,6 @@
 #N canvas 827 239 710 470 12;
 #X obj 19 59 phasor~;
-#X obj 19 29 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 47 256;
+#X obj 19 29 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 18 256;
 #X obj 200 219 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 4 256;
 #X obj 19 339 oscope~ 421 130 2 3 1024 -1 1 0 0 0 0 212 212 212 25 25 25 96 96 96 0 empty;
 #X obj 19 189 pow~ 2;
@@ -13,10 +13,13 @@
 #X obj 19 89 *~ 2;
 #X obj 19 119 -~ 1;
 #X obj 19 149 *~ 4;
-#X obj 69 119 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 4 256;
-#X text 118 119 squish;
+#X obj 69 119 nbx 4 18 3 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 7 256;
 #X text 79 28 speed;
-#X text 258 217 wavelet freq;
+#X obj 449 372 dac~;
+#X obj 449 339 *~;
+#X obj 460 310 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0.2 256;
+#X text 118 119 squish;
+#X text 249 218 freq multiplier thingy;
 #X connect 0 0 11 0;
 #X connect 1 0 0 0;
 #X connect 2 0 10 1;
@@ -25,6 +28,7 @@
 #X connect 6 0 7 0;
 #X connect 7 0 8 0;
 #X connect 8 0 3 0;
+#X connect 8 0 17 0 32.................E....Hb...PA....BG...n.....;
 #X connect 9 0 8 1 32.................E....H1+++eA....h8+++q.....;
 #X connect 10 0 9 0;
 #X connect 11 0 12 0;
@@ -32,3 +36,6 @@
 #X connect 13 0 4 0;
 #X connect 13 0 10 0 32.................J....vH...fB....LB...3A....;
 #X connect 14 0 13 1 32.................F....z8+++uA....c++++y.....;
+#X connect 17 0 16 0;
+#X connect 17 0 16 1;
+#X connect 18 0 17 1;
