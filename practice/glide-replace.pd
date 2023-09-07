@@ -1,0 +1,10 @@
+#N canvas 827 239 527 327 12;
+#X obj 69 209 line;
+#X obj 69 159 pack f f;
+#X obj 69 249 nbx 20 41 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 256;
+#X obj 59 99 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 256;
+#X obj 113 99 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 256;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 3 0 1 0;
+#X connect 4 0 1 1;
