@@ -39,9 +39,9 @@
 #X obj 230 249 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 256;
 #X obj 300 249 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 256;
 #X obj 360 249 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 256;
-#X text 542 119 graph?;
-#X text 544 145 savestate;
-#X text 541 175 presets and morphing;
+#X text 549 118 graph?;
+#X text 549 148 savestate;
+#X text 549 178 presets and morphing;
 #X text 549 208 dbtoa?;
 #X connect 0 0 20 0;
 #X connect 1 0 21 0;
@@ -91,3 +91,4 @@
 #X connect 37 0 13 1;
 #X connect 38 0 14 1;
 #X connect 39 0 15 1;
+#X coords 0 0 1 1 307 258 2 128 25;
