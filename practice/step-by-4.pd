@@ -24,6 +24,11 @@
 #X text 299 248 -4;
 #X text 379 248 0;
 #X text 459 248 4;
+#X obj 189 19 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 256;
+#X obj 189 99 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 256;
+#X obj 189 59 << 2;
 #X connect 0 0 2 0;
 #X connect 1 0 2 1;
 #X connect 2 0 3 0;
+#X connect 25 0 27 0;
+#X connect 27 0 26 0;
