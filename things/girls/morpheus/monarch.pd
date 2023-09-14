@@ -47,7 +47,7 @@
 #X obj 82 179 hsl 111 17 0 1 0 0 empty empty empty -2 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 1;
 #X obj 79 219 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 256;
 #X obj 149 215 bng 25 250 50 0 empty empty empty 17 7 0 10 #191919 #d4d4d4 #d4d4d4;
-#X obj 299 489 text define levels_\$0;
+#X obj 119 499 text define levels_\$0;
 #X obj 299 449 text set levels_\$0;
 #X obj 358 269 text size levels_\$0;
 #X obj 343 339 moses;
@@ -83,6 +83,12 @@
 #X obj 708 -411 f;
 #X text 529 -462 as below \, so below;
 #X text 559 -122 dark;
+#X obj 179 419 savepanel;
+#X msg 89 449 read \$1;
+#X msg 179 449 write \$1;
+#X obj 89 419 openpanel;
+#X obj 218 226 bng 25 250 50 0 empty empty O 1 13 0 26 #191919 #d4d4d4 #d4d4d4;
+#X obj 248 226 bng 25 250 50 0 empty empty S 3 13 0 26 #191919 #d4d4d4 #d4d4d4;
 #X connect 0 0 20 0;
 #X connect 1 0 21 0;
 #X connect 2 0 22 0;
@@ -213,4 +219,10 @@
 #X connect 79 2 80 0;
 #X connect 80 0 55 0;
 #X connect 81 0 56 0;
+#X connect 84 0 86 0;
+#X connect 85 0 48 0;
+#X connect 86 0 48 0;
+#X connect 87 0 85 0;
+#X connect 88 0 87 0;
+#X connect 89 0 84 0;
 #X coords 0 0 1 1 280 259 2 -1 -1;
