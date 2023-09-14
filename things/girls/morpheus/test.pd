@@ -13,6 +13,8 @@
 #X obj 279 179 *~ 1;
 #X obj 279 219 *~ 1;
 #X text 379 68 @@those inlets don't exist@@;
+#X obj 279 9 loadbang;
+#X msg 279 39 read test.txt;
 #X connect 0 0 9 0;
 #X connect 1 0 10 0;
 #X connect 2 0 11 0;
@@ -25,3 +27,5 @@
 #X connect 10 0 8 1;
 #X connect 11 0 8 2;
 #X connect 12 0 8 3;
+#X connect 14 0 15 0;
+#X connect 15 0 8 0;

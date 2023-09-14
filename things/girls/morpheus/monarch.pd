@@ -104,6 +104,8 @@
 #X obj -201 479 dbtoa;
 #X obj -131 479 dbtoa;
 #X obj -71 479 dbtoa;
+#X obj 103 366 t b b b;
+#X obj 19 449 t b b a;
 #X connect 0 0 20 0;
 #X connect 1 0 21 0;
 #X connect 2 0 22 0;
@@ -124,6 +126,7 @@
 #X connect 16 0 1 0;
 #X connect 16 0 2 0;
 #X connect 16 0 3 0;
+#X connect 16 1 106 0;
 #X connect 17 0 4 0;
 #X connect 17 0 5 0;
 #X connect 17 0 6 0;
@@ -238,7 +241,7 @@
 #X connect 84 0 47 0;
 #X connect 85 0 47 0;
 #X connect 86 0 84 0;
-#X connect 87 0 86 0;
+#X connect 87 0 105 0;
 #X connect 88 0 83 0;
 #X connect 89 0 0 1;
 #X connect 90 0 1 1;
@@ -256,4 +259,10 @@
 #X connect 102 0 13 1;
 #X connect 103 0 14 1;
 #X connect 104 0 15 1;
+#X connect 105 0 43 0;
+#X connect 105 1 42 0;
+#X connect 105 2 86 0;
+#X connect 106 0 43 0;
+#X connect 106 1 42 0;
+#X connect 106 2 47 0;
 #X coords 0 0 1 1 280 259 2 -1 -1;
