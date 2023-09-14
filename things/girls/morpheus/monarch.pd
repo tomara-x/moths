@@ -64,7 +64,7 @@
 #X obj 389 -101 list store;
 #X msg 389 -131 get \$1;
 #X obj 569 -321 t b b f;
-#X obj 569 -361 f;
+#X obj 569 -351 f;
 #X msg 369 399 list -128 -128 -128 -128 -128 -128 -128 -128 -128 -128 -128 -128 -128 -128 -128 -128 -128;
 #X obj 549 -171 t f f f;
 #X obj 389 -61 *;
@@ -113,6 +113,8 @@
 #X obj 706 -518 text size levels_\$0;
 #X obj 679 -491 moses;
 #X obj 679 -551 t f b;
+#X obj 569 -381 spigot;
+#X obj 569 -481 > 1;
 #X connect 1 0 21 0;
 #X connect 2 0 22 0;
 #X connect 3 0 23 0;
@@ -181,7 +183,7 @@
 #X connect 41 0 48 0;
 #X connect 42 0 113 0;
 #X connect 43 0 110 0;
-#X connect 44 0 65 0;
+#X connect 44 0 114 0;
 #X connect 45 0 52 0;
 #X connect 46 0 41 0;
 #X connect 49 0 53 0;
@@ -236,10 +238,10 @@
 #X connect 76 13 38 0;
 #X connect 76 14 39 0;
 #X connect 76 15 40 0;
-#X connect 77 0 65 0;
+#X connect 77 0 114 0;
 #X connect 77 1 79 0;
 #X connect 77 2 80 0;
-#X connect 78 0 65 0;
+#X connect 78 0 114 0;
 #X connect 78 1 80 0;
 #X connect 78 2 79 0;
 #X connect 79 0 54 0;
@@ -290,11 +292,15 @@
 #X connect 105 0 40 0;
 #X connect 106 0 105 0;
 #X connect 107 0 108 1;
+#X connect 107 0 115 0;
 #X connect 108 0 78 0;
 #X connect 110 0 108 0;
 #X connect 110 1 107 0;
 #X connect 111 0 112 1;
+#X connect 111 0 115 0;
 #X connect 112 0 77 0;
 #X connect 113 0 112 0;
 #X connect 113 1 111 0;
+#X connect 114 0 65 0;
+#X connect 115 0 114 1;
 #X coords 0 0 1 1 291 241 2 -1 -1;
