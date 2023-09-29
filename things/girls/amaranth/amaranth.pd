@@ -1017,11 +1017,11 @@
 #X obj 19 19 loadbang;
 #X obj 19 189 colors;
 #X msg 19 159 hsl \$1 100 50;
-#X obj 19 349 bng 25 250 50 0 empty empty 🎇 55 70 0 100 #181818 #181818 #8c00ff;
+#X obj 19 349 bng 25 250 50 0 empty empty 🦞 55 70 0 100 #181818 #181818 #ffa600;
 #X obj 19 129 rand.i 0 360;
 #X msg 19 239 color #181818 #181818 \$1;
 #X obj 189 159 t b f b;
-#X msg 189 309 symbol \$88;
+#X msg 189 309 symbol \$64;
 #X msg 203 250 adddollar \$1;
 #X msg 219 279 set symbol;
 #X msg 189 189 list 👻 🧵 🪡 🦋 🦀 🐐 🍀 🍄 🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌟 💧 🎷 🎲 🚁 🐭 🔪 🪞 🧿 🧹 🩸 🪱 🧸 💜 ☮ 🆘 🆒 🆓 🖤 ⚧ ☢️ ☣️ 🦊 💎 🐶 🦝 🔮 🦈 🌸 🍑 🥦 🦗 🦐 🍤 🐛 🐠 🫧 🤍 🐸 🐍 🌊 🍡 🍠 🍥 🍙 🍰 🌠 🦞 🪸 🐞 🪲 🐌 🕊 🌿 🎱 🐳 💕 💋 🍧 🥥 ☄️ ☀️ 🐜 🦑 🪓 🕸 🧭 🎑 🌅 🌄 🌠 🎇 🎆 🌇 🌆 🌃 🌌 🌉 🌁, f 90;
@@ -1655,7 +1655,7 @@
 #X connect 3 0 4 0;
 #X connect 5 0 3 0;
 #X coords 0 0 1 1 31 31 2 0 0;
-#X restore 21 115 pd;
+#X restore 21 113 pd;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X obj 0 0 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #f5a9b8 #ffffff;
 #X obj 229 9 inlet;
@@ -1669,7 +1669,7 @@
 #X connect 3 0 2 0;
 #X connect 5 0 0 0;
 #X coords 0 0 1 1 31 31 2 0 0;
-#X restore 71 114 pd;
+#X restore 71 113 pd;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X obj 0 0 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #ed3b4b #ffffff;
 #X obj 219 9 inlet;
@@ -1683,7 +1683,7 @@
 #X connect 3 0 2 0;
 #X connect 5 0 0 0;
 #X coords 0 0 1 1 31 31 2 0 0;
-#X restore 121 114 pd;
+#X restore 121 113 pd;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X obj 0 0 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #ff6e1d #ffffff;
 #X obj 239 9 inlet;
@@ -1697,7 +1697,7 @@
 #X connect 3 0 2 0;
 #X connect 5 0 0 0;
 #X coords 0 0 1 1 31 31 2 0 0;
-#X restore 171 114 pd;
+#X restore 171 113 pd;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X obj 0 0 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #fbcd26 #ffffff;
 #X obj 219 9 inlet;
@@ -1711,7 +1711,7 @@
 #X connect 3 0 2 0;
 #X connect 5 0 0 0;
 #X coords 0 0 1 1 31 31 2 0 0;
-#X restore 221 115 pd;
+#X restore 221 113 pd;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X obj 0 0 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #53af65 #ffffff;
 #X obj 229 9 inlet;
@@ -1725,7 +1725,7 @@
 #X connect 3 0 2 0;
 #X connect 5 0 0 0;
 #X coords 0 0 1 1 31 31 2 0 0;
-#X restore 271 114 pd;
+#X restore 271 113 pd;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X obj 0 0 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #2d8ce3 #ffffff;
 #X obj 229 9 inlet;
@@ -1739,7 +1739,7 @@
 #X connect 3 0 2 0;
 #X connect 5 0 0 0;
 #X coords 0 0 1 1 31 31 2 0 0;
-#X restore 321 114 pd;
+#X restore 321 113 pd;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X obj 0 0 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #6a47b9 #ffffff;
 #X obj 219 9 inlet;
@@ -1753,7 +1753,7 @@
 #X connect 3 0 2 0;
 #X connect 5 0 0 0;
 #X coords 0 0 1 1 31 31 2 0 0;
-#X restore 371 114 pd;
+#X restore 371 113 pd;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X obj 229 9 inlet;
 #X obj 69 189 outlet;
@@ -1767,7 +1767,7 @@
 #X connect 3 0 4 0;
 #X connect 5 0 3 0;
 #X coords 0 0 1 1 31 31 2 0 0;
-#X restore 421 114 pd;
+#X restore 421 113 pd;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X obj 0 0 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #f5a9b8 #ffffff;
 #X obj 219 9 inlet;
@@ -1823,7 +1823,7 @@
 #X connect 3 0 2 0;
 #X connect 5 0 0 0;
 #X coords 0 0 1 1 31 31 2 0 0;
-#X restore 621 114 pd;
+#X restore 621 113 pd;
 #N canvas 0 50 450 300 (subpatch) 0;
 #X obj 0 0 bng 30 50 10 0 empty empty empty 17 7 0 10 #191919 #53af65 #ffffff;
 #X obj 229 9 inlet;
