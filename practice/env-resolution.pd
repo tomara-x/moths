@@ -248,7 +248,7 @@
 #X connect 9 1 5 0;
 #X connect 9 2 3 0;
 #X restore 959 199 pd fun;
-#X obj 1112 184 function 71 36 empty empty -1 1 25 25 25 212 212 212 1 0 0 0 0 64.6515 1 186.348 0;
+#X obj 1112 184 function 71 36 empty empty -1 1 25 25 25 212 212 212 1 0 0 0 0 64.6516 1 186.348 0;
 #X obj 1112 124 nbx 6 18 1 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 251 256;
 #X obj 1109 229 envgen~, f 9;
 #N canvas 0 50 450 300 dur 0;
@@ -262,10 +262,11 @@
 #X obj 959 119 nbx 7 18 1 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 251 256;
 #X obj 909 129 bng 25 250 50 0 empty empty empty 17 7 0 10 #191919 #d4d4d4 #d4d4d4;
 #X obj 1109 259 oscope~ 130 130 2 3 256 -1 1 0 0 0 0 212 212 212 25 25 25 96 96 96 0 empty;
-#X obj 1054 150 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0 256;
+#X obj 1049 79 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #d4d4d4 #d4d4d4 0.02 256;
 #X obj 959 259 oscope~ 130 130 2 3 256 -1 1 0 0 0 0 212 212 212 25 25 25 96 96 96 0 empty;
 #X obj 959 229 vline~;
 #X text 879 228 hey \, sexy ->;
+#X text 1099 78 around 1 sample;
 #X connect 0 0 5 0;
 #X connect 0 0 18 0;
 #X connect 1 0 2 1;
